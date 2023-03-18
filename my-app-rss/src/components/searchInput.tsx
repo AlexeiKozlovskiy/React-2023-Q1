@@ -46,6 +46,7 @@ class SearchInput extends React.Component<object, SearchInputState> {
           value={this.state.inputValue}
           onChange={this.handleChange}
         />
+        <div className="searchInput__cross" onClick={this.handleClearInput}></div>
       </div>
     );
   }
