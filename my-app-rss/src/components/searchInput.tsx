@@ -39,9 +39,10 @@ class SearchInput extends React.Component<object, SearchInputState> {
 
   render() {
     return (
-      <div className="searchInput__wrapper">
+      <div className="searchInput__wrapper wrapper">
         <input
           type="text"
+          maxLength={35}
           placeholder="Search"
           value={this.state.inputValue}
           onChange={this.handleChange}
