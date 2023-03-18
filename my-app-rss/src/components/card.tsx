@@ -11,7 +11,7 @@ interface CartItem {
   images: string;
 }
 
-export class Card extends Component<CartItem> {
+export class Card extends Component<Partial<CartItem>> {
   render() {
     const { name, price, stock, collection, color, size, category, images } = this.props;
     return (
