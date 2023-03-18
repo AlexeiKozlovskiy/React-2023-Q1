@@ -4,7 +4,6 @@ export class AboutUs extends React.Component {
   render() {
     return (
       <div className="aboutUs">
-        <h2 className="center-text">About us page</h2>
         <p className="center-text">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nam sint, ea repudiandae
           quaerat quam tempora numquam dolorem placeat? Cupiditate numquam alias repudiandae odio
