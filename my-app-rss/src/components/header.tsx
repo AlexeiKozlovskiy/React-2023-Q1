@@ -32,22 +32,24 @@ class Header extends Component<object, PageTitleState> {
     const { pageTitle } = this.state;
 
     return (
-      <header className="header wrapper">
-        <nav className="header__nav">
-          <ul className="header__list">
-            <li className="header__item">
-              <NavLink to={Route.MAIN} onClick={() => this.handleNavClick('Main')}>
-                Main
-              </NavLink>
-            </li>
-            <li className="header__item">
-              <NavLink to={Route.ABOUT} onClick={() => this.handleNavClick('About Us')}>
-                About Us
-              </NavLink>
-            </li>
-          </ul>
-        </nav>
-        <div className="header__title">{pageTitle}</div>
+      <header className="header">
+        <div className="header__container wrapper">
+          <nav className="header__nav">
+            <ul className="header__list">
+              <li className="header__item">
+                <NavLink to={Route.MAIN} onClick={() => this.handleNavClick('Main')}>
+                  Main
+                </NavLink>
+              </li>
+              <li className="header__item">
+                <NavLink to={Route.ABOUT} onClick={() => this.handleNavClick('About Us')}>
+                  About Us
+                </NavLink>
+              </li>
+            </ul>
+          </nav>
+          <div className="header__title">{pageTitle}</div>
+        </div>
       </header>
     );
   }

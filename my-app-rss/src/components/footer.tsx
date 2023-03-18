@@ -4,7 +4,7 @@ class Footer extends React.Component {
   render() {
     return (
       <footer className="footer">
-        <div className="footer__wrapper">
+        <div className="footer__container wrapper">
           <a
             className="github-link"
             href="https://github.com/AlexeiKozlovskiy"

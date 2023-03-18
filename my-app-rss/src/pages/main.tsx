@@ -5,7 +5,7 @@ import { CardList } from '../components/cardList';
 export class Main extends React.Component {
   render() {
     return (
-      <main className="main wrapper">
+      <main className="main">
         <SearchInput />
         <CardList />
       </main>
