@@ -25,7 +25,7 @@ body {
 }
 
 .center-text {
-  text-align:justify;
+  text-align: center;
 }
 
 .header {
@@ -118,6 +118,7 @@ body {
 
   &__text {
     padding: 20px 30px;
+    text-align: justify;
   }
 
   &__img {
@@ -223,7 +224,7 @@ body {
   }
 }
 
-a.active {
+a.active { 
   cursor: default;
 
   &:hover {
