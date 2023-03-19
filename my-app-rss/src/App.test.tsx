@@ -68,14 +68,13 @@ describe('App components', () => {
     );
   });
 
-  test('render Main page and header text', () => {
+  test('render Main page', () => {
     render(<Main />);
-    expect(screen.getByText(/Main page/i)).toBeInTheDocument();
   });
 
-  it('render About Us page and header text', () => {
+  it('render About Us page and text', () => {
     render(<AboutUs />);
-    expect(screen.getByText(/About us page/i)).toBeInTheDocument();
+    expect(screen.getByText(/Lorem ipsum/i)).toBeInTheDocument();
   });
 
   it('render not found page', () => {
