@@ -27,7 +27,7 @@ describe('Card', () => {
 describe('Cards list', () => {
   it('render cards list', () => {
     render(<CardList />);
-    products.forEach((el, ind) => {
+    products.forEach((el) => {
       expect(screen.getByText(el.name)).toBeInTheDocument();
       expect(screen.getByText(el.price)).toBeInTheDocument();
       expect(screen.getAllByText(el.collection)).toHaveLength(
