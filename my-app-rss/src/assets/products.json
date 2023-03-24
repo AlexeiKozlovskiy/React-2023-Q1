@@ -2,139 +2,127 @@
   {
     "id": 1,
     "name": "Geometric star",
-    "stock": 29,
     "collection": 2022,
     "price": 4.95,
     "color": "silver",
-    "size": 10,
+    "availableColors": ["black", "silver"],
     "category": "Tree decorations",
-    "images": "geometric-star.jpg"
+    "image": "img/geometric-star.jpg"
   },
   {
     "id": 2,
     "name": "Christmas Pine Cone",
-    "stock": 14,
     "collection": 2023,
     "price": 4.65,
     "color": "silver",
-    "size": 10,
+    "availableColors": ["green", "silver"],
     "category": "Tree decorations",
-    "images": "Christmas-pine-cone.jpg"
+    "image": "img/Christmas-pine-cone.jpg"
   },
   {
     "id": 3,
     "name": "Lametta Christmas",
     "price": 3.65,
-    "stock": 40,
     "collection": 2023,
     "color": "red",
-    "size": 270,
+    "availableColors": ["green", "red", "orange"],
     "category": "Garland & Wreath",
-    "images": "lametta-christmas-red-shiny(1).jpg"
+    "image": "img/lametta-christmas-red-shiny(1).jpg"
   },
   {
     "id": 4,
     "name": "Popcorn Machine",
     "price": 6.99,
-    "stock": 40,
     "collection": 2021,
     "color": "red",
-    "size": 12,
+    "availableColors": ["red"],
     "category": "Tree decorations",
-    "images": "popcorn-machine-glass-hanging-figurine-12cm-red.jpg"
+    "image": "img/popcorn-machine-glass-hanging-figurine-12cm-red.jpg"
   },
   {
     "id": 5,
     "name": "Christmas garland with stars",
     "price": 3.99,
-    "stock": 11,
     "collection": 2023,
     "color": "silver",
-    "size": 150,
+    "availableColors": ["silver", "red", "orange"],
     "category": "Garland & Wreath",
-    "images": "christmas-garland-with-stars-silver-270x6cm-shiny(1).jpg"
+    "image": "img/christmas-garland-with-stars-silver-270x6cm-shiny(1).jpg"
   },
   {
     "id": 6,
     "name": "Blowfish Glass Hanging",
     "price": 4.99,
-    "stock": 30,
     "collection": 2023,
     "color": "blue",
-    "size": 8,
+    "availableColors": ["blue"],
     "category": "Tree decorations",
-    "images": "blowfish-glass-hanging-figurine-9cm-blue.jpg"
+    "image": "img/blowfish-glass-hanging-figurine-9cm-blue.jpg"
   },
   {
     "id": 7,
     "name": "3 DIY Christmas baubles with markers",
     "price": 6.95,
-    "stock": 47,
     "collection": 2022,
     "color": "silver",
-    "size": 8,
+    "availableColors": ["green", "silver", "red"],
     "favorite": false,
     "category": "Do It Yourself",
-    "images": "3-diy-silver-christmas-baubles-8-cm-with-markers.jpg"
+    "image": "img/3-diy-silver-christmas-baubles-8-cm-with-markers.jpg"
   },
   {
     "id": 8,
     "name": "Wooden Ornament Display Tree",
     "price": 16.95,
-    "stock": 23,
     "collection": 2023,
     "color": "black",
-    "size": 80,
+    "availableColors": ["black", "white"],
     "favorite": false,
     "category": "Do It Yourself",
-    "images": "wooden-ornament-display-tree-black-80-cm.jpg"
+    "image": "img/wooden-ornament-display-tree-black-80-cm.jpg"
   },
   {
     "id": 9,
     "name": "Artificial snow",
     "price": 3.45,
-    "stock": 13,
     "collection": 2021,
     "color": "white",
-    "size": 1,
+    "availableColors": ["white"],
     "favorite": false,
     "category": "Do It Yourself",
-    "images": "fake-snow-250g.jpg"
+    "image": "img/fake-snow-250g.jpg"
   },
   {
     "id": 10,
     "name": "Gnome with LED hat",
     "price": 12.95,
-    "stock": 3,
     "collection": 2022,
     "color": "green",
-    "size": 24,
+    "availableColors": ["green", "orange"],
     "favorite": true,
     "category": "Christmas decorations",
-    "images": "gnome-with-led-hat-eucalyptus-24-cm-porcelain.jpg"
+    "image": "img/gnome-with-led-hat-eucalyptus-24-cm-porcelain.jpg"
   },
   {
     "id": 11,
     "name": "Christmas tree candle holder",
     "price": 5.95,
-    "stock": 21,
     "collection": 2022,
     "color": "green",
-    "size": 10,
+    "availableColors": ["green"],
     "favorite": false,
     "category": "Christmas decorations",
-    "images": "porcelain-christmas-tree-candle-holder-green-10-cm.jpg"
+    "image": "img/porcelain-christmas-tree-candle-holder-green-10-cm.jpg"
   },
   {
     "id": 12,
     "name": "Christmas tree figurine",
     "price": 25.95,
-    "stock": 46,
     "collection": 2021,
     "color": "green",
-    "size": 35,
+    "availableColors": ["green"],
     "favorite": true,
     "category": "Christmas decorations",
-    "images": "led-christmas-tree-figurine-35-cm-magnesia.jpg"
+    "image": "img/led-christmas-tree-figurine-35-cm-magnesia.jpg"
   }
 ]
