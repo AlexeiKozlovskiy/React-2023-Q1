@@ -4,6 +4,7 @@ import { FormInputData } from '../types';
 import { Color } from '../types';
 import { Category } from '../types';
 import { FormsData } from '../types';
+import { ErrorMessage } from './formErrorMessage';
 import { validateFormData } from './validateForm';
 import { resetForm } from './resetForm';
 
@@ -126,16 +127,19 @@ export class Form extends React.Component<FormSubmitProps, FormsData> {
           <div className="input__container">
             <label htmlFor="nameInput">Name</label>
             <input type="text" id="nameInput" ref={this.nameInput} />
+            <ErrorMessage message={this.state.nameError!} />
           </div>
 
           <div className="input__container">
             <label htmlFor="collectionInput">Price</label>
             <input type="number" id="collectionInput" ref={this.priceInput} />
+            <ErrorMessage message={this.state.priceError!} />
           </div>
 
           <div className="input__container">
             <label htmlFor="dateInput">Collection</label>
             <input type="date" id="dateInput" ref={this.collectionInput} />
+            <ErrorMessage message={this.state.collectionError!} />
           </div>
 
           <div className="input__container">
@@ -148,6 +152,7 @@ export class Form extends React.Component<FormSubmitProps, FormsData> {
                 </option>
               ))}
             </select>
+            <ErrorMessage message={this.state.colorError!} />
           </div>
 
           <div className="input__container input__allColors">
@@ -170,6 +175,7 @@ export class Form extends React.Component<FormSubmitProps, FormsData> {
                 </label>
               </div>
             ))}
+            <ErrorMessage message={this.state.availableColorsError!} />
           </div>
 
           <div className="input__container input__category">
@@ -192,6 +198,7 @@ export class Form extends React.Component<FormSubmitProps, FormsData> {
                 </label>
               </div>
             ))}
+            <ErrorMessage message={this.state.categoryError!} />
           </div>
 
           <div className="input__container">
@@ -203,6 +210,7 @@ export class Form extends React.Component<FormSubmitProps, FormsData> {
               onChange={this.handleImageChange}
               ref={this.imageInput}
             />
+            <ErrorMessage message={this.state.imageError!} />
           </div>
           <input className="input__btn" type="submit" />
         </form>
