@@ -4,6 +4,7 @@ import { Color } from '../types';
 import { Category } from '../types';
 import { FormsData } from '../types';
 import { validateFormData } from './validateForm';
+import { resetForm } from './resetForm';
 
 interface FormSubmitProps {
   onFormSubmit: (formData: FormInputData) => void;
@@ -63,6 +64,28 @@ export class Form extends React.Component<FormSubmitProps, FormsData> {
     }
 
     this.props.onFormSubmit(formData);
+
+    resetForm(
+      this.nameInput,
+      this.priceInput,
+      this.collectionInput,
+      this.categoryInputs,
+      this.imageInput
+    );
+
+    this.setState({
+      color: '',
+      availableColors: [],
+      category: '',
+      image: '',
+      nameError: '',
+      priceError: '',
+      collectionError: '',
+      colorError: '',
+      availableColorsError: '',
+      categoryError: '',
+      imageError: '',
+    });
   }
 
   handleColorChange(event: React.ChangeEvent<HTMLSelectElement>) {
