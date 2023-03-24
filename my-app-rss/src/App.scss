@@ -114,6 +114,20 @@ body {
   padding: 20px;
 }
 
+.main {
+  display: flex;
+  gap: 20px;
+
+  aside {
+    width: 250px;
+  }
+
+  &__message {
+   padding-top: 20px;
+   text-align: center;
+  }
+}
+
 .aboutUs {
 
   &__text {

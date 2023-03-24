@@ -1,3 +1,4 @@
+import './form.scss';
 import React from 'react';
 import { FormInputData } from '../types';
 import { Color } from '../types';
