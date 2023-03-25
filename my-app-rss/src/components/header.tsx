@@ -18,6 +18,9 @@ class Header extends Component<object, PageTitleState> {
       case Route.MAIN:
         this.setState({ pageTitle: 'Main' });
         break;
+      case Route.FORM:
+        this.setState({ pageTitle: 'Form' });
+        break;
       case Route.ABOUT:
         this.setState({ pageTitle: 'About Us' });
         break;
@@ -39,6 +42,11 @@ class Header extends Component<object, PageTitleState> {
               <li className="header__item">
                 <NavLink to={Route.MAIN} onClick={() => this.handleNavClick('Main')}>
                   Main
+                </NavLink>
+              </li>
+              <li className="header__item">
+                <NavLink to={Route.FORM} onClick={() => this.handleNavClick('Form')}>
+                  Form
                 </NavLink>
               </li>
               <li className="header__item">

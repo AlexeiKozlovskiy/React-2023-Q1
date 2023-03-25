@@ -1,10 +1,8 @@
 import React from 'react';
-import { createRef } from 'react';
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import { Form } from './form';
 import { ErrorMessage } from './formErrorMessage';
 import { BrowserRouter } from 'react-router-dom';
-import { resetForm } from './resetForm';
 import { validateFormData } from './validateForm';
 
 describe('Form', () => {
