@@ -12,15 +12,36 @@ form {
     display: flex;
     flex-direction: column;
     width: 200px;
-    min-height: 55px;
+    // min-height: 55px;
   }
 
-  &__allColors {
-    height: 160px;
+
+  &__name-container {
+    height: 35px;
   }
 
-  &__category {
-    height: 80px;
+  &__price-container {
+    height: 35px;
+  }
+
+  &__collection-container {
+    height: 55px;
+  }
+
+  &__color-container {
+    height: 35px;
+  }
+
+  &__image-container {
+    height: 55px;
+  }
+
+  &__allColors-container {
+    height: 150px;
+  }
+
+  &__category-container {
+    height: 75px;
   }
 
   &__label-checkbox {

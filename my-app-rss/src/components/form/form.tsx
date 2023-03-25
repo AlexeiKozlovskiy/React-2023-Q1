@@ -124,25 +124,25 @@ export class Form extends React.Component<FormSubmitProps, FormsData> {
     return (
       <div className="form">
         <form onSubmit={this.handleSubmit}>
-          <div className="input__container">
+          <div className="input__container input__name-container">
             <label htmlFor="nameInput">Name</label>
             <input type="text" id="nameInput" ref={this.nameInput} />
             <ErrorMessage message={this.state.nameError!} />
           </div>
 
-          <div className="input__container">
+          <div className="input__container input__price-container">
             <label htmlFor="collectionInput">Price</label>
             <input type="number" id="collectionInput" ref={this.priceInput} />
             <ErrorMessage message={this.state.priceError!} />
           </div>
 
-          <div className="input__container">
+          <div className="input__container input__collection-container">
             <label htmlFor="dateInput">Collection</label>
             <input type="date" id="dateInput" ref={this.collectionInput} />
             <ErrorMessage message={this.state.collectionError!} />
           </div>
 
-          <div className="input__container">
+          <div className="input__container input__color-container">
             <label htmlFor="colorSelect">Color</label>
             <select id="colorSelect" value={this.state.color} onChange={this.handleColorChange}>
               <option value="">Select color</option>
@@ -155,7 +155,7 @@ export class Form extends React.Component<FormSubmitProps, FormsData> {
             <ErrorMessage message={this.state.colorError!} />
           </div>
 
-          <div className="input__container input__allColors">
+          <div className="input__container input__allColors-container">
             <label>All available colors:</label>
             {colorOptions.map((availableColors, index) => (
               <div key={index}>
@@ -178,7 +178,7 @@ export class Form extends React.Component<FormSubmitProps, FormsData> {
             <ErrorMessage message={this.state.availableColorsError!} />
           </div>
 
-          <div className="input__container input__category">
+          <div className="input__container input__category-container">
             <label>Category:</label>
             {categoryOptions.map((category, index) => (
               <div key={category}>
@@ -201,7 +201,7 @@ export class Form extends React.Component<FormSubmitProps, FormsData> {
             <ErrorMessage message={this.state.categoryError!} />
           </div>
 
-          <div className="input__container">
+          <div className="input__container input__image-container">
             <label htmlFor="imageInput">Image</label>
             <input
               className="input__file"
