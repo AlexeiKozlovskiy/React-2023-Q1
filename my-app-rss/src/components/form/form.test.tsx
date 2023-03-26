@@ -2,8 +2,6 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { Form } from './form';
 import { FormPage } from './../../pages/formPage';
-import { ErrorMessage } from './formErrorMessage';
-import { BrowserRouter } from 'react-router-dom';
 import { validateFormData } from './validateForm';
 import { resetForm } from './../form/resetForm';
 
