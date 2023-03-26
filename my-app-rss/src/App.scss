@@ -126,6 +126,10 @@ body {
 .form-main {
   display: flex;
   gap: 30px;
+
+  aside {
+    height: 650px;
+  }
   
   &__section {
     width: 100%;

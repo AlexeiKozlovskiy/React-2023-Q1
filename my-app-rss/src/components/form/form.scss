@@ -13,20 +13,14 @@ form {
     width: 200px;
   }
 
-  &__name-container {
-    height: 35px;
-  }
-
-  &__price-container {
+  &__name-container,
+  &__price-container,
+  &__color-container {
     height: 35px;
   }
 
   &__collection-container {
     height: 55px;
-  }
-
-  &__color-container {
-    height: 35px;
   }
 
   &__image-container {
