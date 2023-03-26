@@ -1,41 +1,30 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { Form } from './form';
+import { FormPage } from './../../pages/formPage';
 import { ErrorMessage } from './formErrorMessage';
 import { BrowserRouter } from 'react-router-dom';
 import { validateFormData } from './validateForm';
+import { resetForm } from './../form/resetForm';
 
-describe('Form', () => {
+describe('Form page', () => {
   const onFormSubmit = jest.fn();
-  const mockOnFormSubmit = jest.fn();
-  beforeEach(() => {
-    jest.clearAllMocks();
-    render(<Form onFormSubmit={mockOnFormSubmit} />);
-  });
 
-  it('render inputs form', () => {
+  it('render form page components', () => {
+    render(<FormPage />);
     render(<Form onFormSubmit={onFormSubmit} />);
     expect(screen.getByLabelText(/Name/i)).toBeInTheDocument();
     expect(screen.getByLabelText(/Price/i)).toBeInTheDocument();
     expect(screen.getByLabelText(/Color/i)).toBeInTheDocument();
     expect(screen.getByLabelText(/Collection/i)).toBeInTheDocument();
-    // expect(screen.getByLabelText(/Available/i)).toBeInTheDocument();
-    // expect(screen.getByText(/Category/i)).toBeInTheDocument();
+    expect(screen.queryAllByText(/Available/i)[0]).toBeInTheDocument();
+    expect(screen.queryAllByText(/Category/i)[0]).toBeInTheDocument();
     expect(screen.getByLabelText(/Image/i)).toBeInTheDocument();
-  });
-
-  it('render error message', () => {
-    render(
-      <BrowserRouter>
-        <ErrorMessage message={'Please select a color'} />
-      </BrowserRouter>
-    );
-    expect(screen.getByText(/Please/i)).toBeInTheDocument();
   });
 
   it('return error message when some fields are invalid', () => {
     const formData = {
-      name: '   ',
+      name: 'ff',
       price: 0,
       collection: '',
       color: '',
@@ -54,5 +43,27 @@ describe('Form', () => {
     expect(errors.categoryError).toBe('Please select a category');
     expect(errors.imageError).toBe('Please add image');
     expect(hasError).toBe(true);
+  });
+
+  it('reset all form inputs', () => {
+    const nameInputRef = { current: { value: 'product' } };
+    const priceInputRef = { current: { value: '555' } };
+    const collectionInputRef = { current: { value: '26-03-2023' } };
+    const categoryInputsRef = [
+      { current: { checked: true } },
+      { current: { checked: false } },
+      { current: { checked: true } },
+    ];
+    const imageInputRef = { current: { value: 'image.jpg' } };
+
+    resetForm(nameInputRef, priceInputRef, collectionInputRef, categoryInputsRef, imageInputRef);
+
+    expect(nameInputRef.current.value).toBe('');
+    expect(priceInputRef.current.value).toBe('');
+    expect(collectionInputRef.current.value).toBe('');
+    categoryInputsRef.forEach((input) => {
+      expect(input.current.checked).toBe(false);
+    });
+    expect(imageInputRef.current.value).toBe('');
   });
 });

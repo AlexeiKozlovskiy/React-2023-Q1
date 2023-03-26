@@ -1,9 +1,9 @@
 export function resetForm(
-  nameInput: React.RefObject<HTMLInputElement>,
-  priceInput: React.RefObject<HTMLInputElement>,
-  collectionInput: React.RefObject<HTMLInputElement>,
-  categoryInputs: React.RefObject<HTMLInputElement>[],
-  imageInput: React.RefObject<HTMLInputElement>
+  nameInput: React.RefObject<HTMLInputElement> | { current: { value: string } },
+  priceInput: React.RefObject<HTMLInputElement> | { current: { value: string } },
+  collectionInput: React.RefObject<HTMLInputElement> | { current: { value: string } },
+  categoryInputs: React.RefObject<HTMLInputElement>[] | { current: { checked: boolean } }[],
+  imageInput: React.RefObject<HTMLInputElement> | { current: { value: string } }
 ) {
   if (nameInput.current) {
     nameInput.current.value = '';
