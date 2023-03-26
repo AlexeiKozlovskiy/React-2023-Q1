@@ -13,7 +13,7 @@ export function validateFormData(formData: FormInputData) {
   };
   let hasError = false;
 
-  if (!formData.name?.trim()) {
+  if (!formData.name?.trim() || !/^[a-zA-Z]{3,}$/.test(formData.name)) {
     errors.nameError = 'Please enter a name';
     hasError = true;
   }
