@@ -1,7 +1,7 @@
 import App from './../../App';
 import React from 'react';
 import { AboutUs } from 'pages/aboutUs';
-import { Main } from 'pages/main';
+import { MainPage } from 'pages/mainPage';
 import { NotFound } from 'pages/notFound';
 import { FormPage } from 'pages/formPage';
 import { createBrowserRouter } from 'react-router-dom';
@@ -18,7 +18,7 @@ export const router = createBrowserRouter([
     children: [
       {
         path: Route.MAIN,
-        element: <Main />,
+        element: <MainPage />,
       },
       {
         path: Route.ABOUT,

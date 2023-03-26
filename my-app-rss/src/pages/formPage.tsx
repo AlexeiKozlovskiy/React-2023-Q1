@@ -1,5 +1,5 @@
 import React from 'react';
-import { CardList } from '../components/cardList';
+import { CarListForm } from '../components/cardListForm';
 import { Form } from '../components/form/form';
 import { FormInputData } from './../components/types';
 
@@ -38,13 +38,13 @@ export class FormPage extends React.Component<object, FormState> {
 
   render() {
     return (
-      <main className="main wrapper">
+      <main className="form-main wrapper">
         <aside>
           <Form onFormSubmit={this.handleFormSubmit} />
           {this.state.showMessage && <div className="success-message">Data has been saved</div>}
         </aside>
-        <section>
-          <CardList formSubmissions={this.state.formSubmissions} />
+        <section className="form-main__section">
+          <CarListForm formSubmissions={this.state.formSubmissions} />
         </section>
       </main>
     );

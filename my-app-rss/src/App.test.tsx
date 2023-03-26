@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { Main } from './pages/main';
+import { MainPage } from './pages/mainPage';
 import { AboutUs } from './pages/aboutUs';
 import { NotFound } from 'pages/notFound';
 import Footer from './components/footer';
@@ -52,7 +52,7 @@ describe('App components', () => {
     );
   });
   it('render Main page header text', () => {
-    render(<Main />);
+    render(<MainPage />);
     expect(screen.getByText(/Popcorn/i)).toBeInTheDocument();
   });
 
