@@ -11,6 +11,7 @@ export interface FormErrorData {
 }
 
 export interface FormInputData {
+  id?: number | undefined;
   name?: string | undefined;
   price?: number | undefined;
   collection?: string | undefined;
@@ -19,6 +20,7 @@ export interface FormInputData {
   category?: string | undefined;
   image?: string | undefined;
 }
+
 export interface FormProps {
   formData?: FormInputData | null;
 }

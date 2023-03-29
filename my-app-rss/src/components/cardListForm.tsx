@@ -11,8 +11,8 @@ export class CarListForm extends React.Component<CardListFormProps> {
     const formSubmissions = this.props.formSubmissions?.reverse() || [];
     return (
       <div className="cardList__wrapper wrapper">
-        {formSubmissions.map((formData, index) => (
-          <Card key={index} {...formData} />
+        {formSubmissions.map((formData) => (
+          <Card key={formData.id} {...formData} />
         ))}
       </div>
     );

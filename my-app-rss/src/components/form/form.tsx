@@ -22,6 +22,7 @@ export class Form extends React.Component<FormSubmitProps, FormsData> {
   constructor(props: FormSubmitProps) {
     super(props);
     this.state = {
+      id: 1,
       availableColors: [],
     };
     this.imageInput = React.createRef();
@@ -42,6 +43,7 @@ export class Form extends React.Component<FormSubmitProps, FormsData> {
   handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const formData = {
+      id: this.state.id,
       name: this.nameInput.current?.value.trim(),
       price: parseInt(this.priceInput.current?.value || ''),
       collection: this.collectionInput.current?.value,

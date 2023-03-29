@@ -6,8 +6,8 @@ export class CardList extends React.Component {
   render() {
     return (
       <div className="cardList__wrapper wrapper">
-        {products.map((card, index) => (
-          <Card key={index} {...card} />
+        {products.map((card) => (
+          <Card key={card.id} {...card} />
         ))}
       </div>
     );
