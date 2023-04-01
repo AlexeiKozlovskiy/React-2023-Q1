@@ -25,10 +25,11 @@ export interface FormProps {
   formData?: FormInputData | null;
 }
 
-export interface CartItem<T> {
+export interface CartItem {
+  id: number;
   name: string;
   price: number;
-  collection: T;
+  collection: number | string;
   color: string;
   availableColors: string[];
   category: string;

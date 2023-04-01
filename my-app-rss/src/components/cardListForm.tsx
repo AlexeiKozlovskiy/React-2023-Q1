@@ -6,15 +6,15 @@ interface CardListFormProps {
   formSubmissions?: FormInputData[];
 }
 
-export class CarListForm extends React.Component<CardListFormProps> {
-  render() {
-    const formSubmissions = this.props.formSubmissions?.reverse() || [];
-    return (
-      <div className="cardList__wrapper wrapper">
-        {formSubmissions.map((formData) => (
+export function CarListForm({ formSubmissions = [] }: CardListFormProps) {
+  return (
+    <div className="cardList__wrapper wrapper">
+      {formSubmissions
+        .slice()
+        .reverse()
+        .map((formData) => (
           <Card key={formData.id} {...formData} />
         ))}
-      </div>
-    );
-  }
+    </div>
+  );
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { CarListForm } from '../components/cardListForm';
 import { Form } from '../components/form/form';
 import { FormInputData } from './../components/types';
@@ -8,45 +8,38 @@ interface FormState {
   showMessage: boolean;
 }
 
-export class FormPage extends React.Component<object, FormState> {
-  constructor(props: object = {}) {
-    super(props);
-    this.state = {
-      formSubmissions: [],
-      showMessage: false,
-    };
-    this.handleFormSubmit = this.handleFormSubmit.bind(this);
-    this.hideMessage = this.hideMessage.bind(this);
-  }
+export function FormPage() {
+  const [formState, setFormState] = useState<FormState>({
+    formSubmissions: [],
+    showMessage: false,
+  });
 
-  handleFormSubmit(formData: FormInputData) {
-    this.setState({
-      formSubmissions: [...this.state.formSubmissions, formData],
+  const handleFormSubmit = (formData: FormInputData) => {
+    setFormState({
+      formSubmissions: [...formState.formSubmissions, formData],
       showMessage: true,
     });
-
     window.setTimeout(() => {
-      this.hideMessage();
+      hideMessage();
     }, 5000);
-  }
+  };
 
-  hideMessage() {
-    this.setState({
+  const hideMessage = () => {
+    setFormState((prevState) => ({
+      ...prevState,
       showMessage: false,
-    });
-  }
+    }));
+  };
 
-  render() {
-    return (
-      <main className="form-main wrapper">
-        <aside>
-          <Form onFormSubmit={this.handleFormSubmit} />
-          {this.state.showMessage && <div className="success-message">Data has been saved</div>}
-        </aside>
-        <section className="form-main__section">
-          <CarListForm formSubmissions={this.state.formSubmissions} />
-        </section>
-      </main>
-    );
-  }
+  return (
+    <main className="form-main wrapper">
+      <aside>
+        <Form onFormSubmit={handleFormSubmit} />
+        {formState.showMessage && <div className="success-message">Data has been saved</div>}
+      </aside>
+      <section className="form-main__section">
+        <CarListForm formSubmissions={formState.formSubmissions} />
+      </section>
+    </main>
+  );
 }

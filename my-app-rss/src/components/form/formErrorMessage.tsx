@@ -4,6 +4,6 @@ interface ErrorMessage {
   message: string | null;
 }
 
-export const ErrorMessage: React.FC<ErrorMessage> = ({ message }) => {
+export function ErrorMessage({ message }: ErrorMessage) {
   return <div className="input__error-message">{message}</div>;
-};
+}

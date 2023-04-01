@@ -1,66 +1,53 @@
-import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { NavLink, useLocation } from 'react-router-dom';
 import { Route } from './router/routes';
 
 interface PageTitleState {
   pageTitle: string;
 }
 
-class Header extends Component<object, PageTitleState> {
-  constructor(props: object = {}) {
-    super(props);
-    this.state = { pageTitle: '' };
-  }
+function Header() {
+  const [pageTitle, setPageTitle] = useState<PageTitleState>({
+    pageTitle: '',
+  });
 
-  componentDidMount() {
-    const currentPath = window.location.pathname;
-    switch (currentPath) {
+  const location = useLocation();
+  useEffect(() => {
+    switch (location.pathname) {
       case Route.MAIN:
-        this.setState({ pageTitle: 'Main' });
+        setPageTitle({ pageTitle: 'Main' });
         break;
       case Route.FORM:
-        this.setState({ pageTitle: 'Form' });
+        setPageTitle({ pageTitle: 'Form' });
         break;
       case Route.ABOUT:
-        this.setState({ pageTitle: 'About Us' });
+        setPageTitle({ pageTitle: 'About Us' });
         break;
+      default:
+        setPageTitle({ pageTitle: '' });
     }
-  }
+  }, [location]);
 
-  handleNavClick = (title: string) => {
-    this.setState({ pageTitle: title });
-  };
-
-  render() {
-    const { pageTitle } = this.state;
-
-    return (
-      <header className="header">
-        <div className="header__container wrapper">
-          <nav className="header__nav">
-            <ul className="header__list">
-              <li className="header__item">
-                <NavLink to={Route.MAIN} onClick={() => this.handleNavClick('Main')}>
-                  Main
-                </NavLink>
-              </li>
-              <li className="header__item">
-                <NavLink to={Route.FORM} onClick={() => this.handleNavClick('Form')}>
-                  Form
-                </NavLink>
-              </li>
-              <li className="header__item">
-                <NavLink to={Route.ABOUT} onClick={() => this.handleNavClick('About Us')}>
-                  About Us
-                </NavLink>
-              </li>
-            </ul>
-          </nav>
-          <div className="header__title">{pageTitle}</div>
-        </div>
-      </header>
-    );
-  }
+  return (
+    <header className="header">
+      <div className="header__container wrapper">
+        <nav className="header__nav">
+          <ul className="header__list">
+            <li className="header__item">
+              <NavLink to={Route.MAIN}>Main</NavLink>
+            </li>
+            <li className="header__item">
+              <NavLink to={Route.FORM}>Form</NavLink>
+            </li>
+            <li className="header__item">
+              <NavLink to={Route.ABOUT}>About Us</NavLink>
+            </li>
+          </ul>
+        </nav>
+        <div className="header__title">{pageTitle.pageTitle}</div>
+      </div>
+    </header>
+  );
 }
 
 export default Header;
