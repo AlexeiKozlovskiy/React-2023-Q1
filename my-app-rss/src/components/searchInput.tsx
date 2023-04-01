@@ -26,7 +26,11 @@ function SearchInput() {
         value={searchInputState.inputValue}
         onChange={handleChange}
       />
-      <div className="searchInput__cross" onClick={handleClearInput}></div>
+      <div
+        className="searchInput__cross"
+        data-testid="clear-button"
+        onClick={handleClearInput}
+      ></div>
     </div>
   );
 }

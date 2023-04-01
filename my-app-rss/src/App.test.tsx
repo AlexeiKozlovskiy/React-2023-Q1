@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import { MainPage } from './pages/mainPage';
 import { AboutUs } from './pages/aboutUs';
 import { NotFound } from 'pages/notFound';
@@ -43,7 +43,7 @@ describe('Cards list', () => {
   });
 });
 
-describe('App components', () => {
+describe('any components app', () => {
   it('render app', () => {
     render(
       <BrowserRouter>
@@ -51,6 +51,7 @@ describe('App components', () => {
       </BrowserRouter>
     );
   });
+
   it('render Main page header text', () => {
     render(<MainPage />);
     expect(screen.getByText(/Popcorn/i)).toBeInTheDocument();
@@ -83,5 +84,14 @@ describe('App components', () => {
   it('render SearchInput', () => {
     render(<SearchInput />);
     expect(screen.getByPlaceholderText(/Search/i)).toBeInTheDocument();
+  });
+
+  it('clears input value on click', () => {
+    const { getByPlaceholderText, getByTestId } = render(<SearchInput />);
+    const input = getByPlaceholderText('Search') as HTMLInputElement;
+    const clearButton = getByTestId('clear-button');
+    fireEvent.change(input, { target: { value: 'jjjj' } });
+    fireEvent.click(clearButton);
+    expect(input.value).toBe('');
   });
 });

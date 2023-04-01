@@ -110,6 +110,7 @@ export function Form(props: FormSubmitProps) {
                 {...register('category', { required: true })}
                 type="radio"
                 id={`category-${category.toLowerCase().replace(' ', '-')}`}
+                data-testid={`${category.toLowerCase().replace(' ', '-')}`}
                 name="category"
                 value={category}
               />
