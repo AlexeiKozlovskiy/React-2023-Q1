@@ -1,9 +1,9 @@
 import React from 'react';
-import { render, screen, fireEvent, waitFor } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import { Form } from './form';
 import { FormPage } from './../../pages/formPage';
 import { act } from 'react-dom/test-utils';
-import userEvent from '@testing-library/user-event';
+// import userEvent from '@testing-library/user-event';
 
 describe('Form page', () => {
   const mockOnFormSubmit = jest.fn();
