@@ -3,7 +3,6 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import { Form } from './form';
 import { FormPage } from './../../pages/formPage';
 import { act } from 'react-dom/test-utils';
-// import userEvent from '@testing-library/user-event';
 
 describe('Form page', () => {
   const mockOnFormSubmit = jest.fn();
@@ -45,7 +44,7 @@ describe('Form page', () => {
       fireEvent.change(nameInput, { target: { value: '4444' } });
       fireEvent.click(submitButton);
     });
-    expect(screen.getByText('Name should be letters (A-z)')).toBeInTheDocument();
+    expect(screen.getByText('Name should be letters (A-z, А-я)')).toBeInTheDocument();
   });
 
   it('input price verification', async () => {
@@ -57,7 +56,7 @@ describe('Form page', () => {
       fireEvent.change(namePrice, { target: { value: '-1000' } });
       fireEvent.click(submitButton);
     });
-    expect(screen.getByText('Price should be greater than or equal to 0')).toBeInTheDocument();
+    expect(screen.getByText('Price should be >= 0')).toBeInTheDocument();
   });
 
   it('inputs success data, and clearing inputs', async () => {
@@ -84,13 +83,10 @@ describe('Form page', () => {
       fireEvent.click(submitButton);
     });
 
-    // await waitFor(() => {
-    // expect(screen.getByText('Rubi Rod')).toBeInTheDocument();
     expect(nameInput.value).toBe('');
     expect(namePrice.value).toBe('');
     expect(collectionInput.value).toBe('');
     expect(colorSelect.value).toBe('');
     expect(imageInput.value).toBe('');
-    // });
   });
 });
