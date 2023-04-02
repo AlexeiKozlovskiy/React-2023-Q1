@@ -51,7 +51,7 @@ export function Form(props: FormSubmitProps) {
           />
           {errors.name?.type === 'required' && <ErrorMessage message="Please enter name" />}
           {errors.name?.type === 'pattern' && (
-            <ErrorMessage message="Name should be letters (A-z)" />
+            <ErrorMessage message="Name should be letters (A-z, А-я)" />
           )}
         </div>
 
@@ -59,9 +59,7 @@ export function Form(props: FormSubmitProps) {
           <label htmlFor="priceInput">Price</label>
           <input type="number" id="priceInput" {...register('price', { required: true, min: 0 })} />
           {errors.price?.type === 'required' && <ErrorMessage message="Please enter price" />}
-          {errors.price?.type === 'min' && (
-            <ErrorMessage message="Price should be greater than or equal to 0" />
-          )}
+          {errors.price?.type === 'min' && <ErrorMessage message="Price should be >= 0" />}
         </div>
 
         <div className="input__container input__collection-container">
@@ -74,8 +72,8 @@ export function Form(props: FormSubmitProps) {
           <label htmlFor="colorSelect">Color</label>
           <select id="colorSelect" {...register('color', { required: true })}>
             <option value="">Select color</option>
-            {colorOptions.map((color, index) => (
-              <option key={index} value={color}>
+            {colorOptions.map((color) => (
+              <option key={color} value={color}>
                 {color}
               </option>
             ))}
@@ -85,8 +83,8 @@ export function Form(props: FormSubmitProps) {
 
         <div className="input__container input__allColors-container">
           <div>All available colors:</div>
-          {colorOptions.map((availableColors, index) => (
-            <div key={index}>
+          {colorOptions.map((availableColors) => (
+            <div key={availableColors}>
               <input
                 {...register('availableColors', { required: true })}
                 type="checkbox"
