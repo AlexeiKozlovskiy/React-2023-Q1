@@ -18,7 +18,7 @@ function SearchInput() {
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const newInputValue = event.target.value;
-    setSearchInput({ inputValue: event.target.value });
+    setSearchInput({ inputValue: newInputValue });
     localStorage.setItem('inputValue', newInputValue);
   };
 
