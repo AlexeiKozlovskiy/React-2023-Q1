@@ -1,29 +1,21 @@
-import React, { useState, useEffect } from 'react';
-
-interface SearchInputState {
-  inputValue: string;
-}
+import React, { useState, useEffect, useRef } from 'react';
 
 function SearchInput() {
-  const [searchInputState, setSearchInput] = useState<SearchInputState>({
-    inputValue: '',
-  });
+  const savedInputValue = useRef(localStorage.getItem('inputValue') || '');
+  const [inputValue, setInputValue] = useState(savedInputValue.current);
 
   useEffect(() => {
-    const savedInputValue = localStorage.getItem('inputValue');
-    if (savedInputValue) {
-      setSearchInput({ inputValue: savedInputValue });
-    }
+    return () => {
+      localStorage.setItem('inputValue', savedInputValue.current);
+    };
   }, []);
 
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const newInputValue = event.target.value;
-    setSearchInput({ inputValue: newInputValue });
-    localStorage.setItem('inputValue', newInputValue);
-  };
+  useEffect(() => {
+    savedInputValue.current = inputValue;
+  }, [inputValue]);
 
   const handleClearInput = () => {
-    setSearchInput({ inputValue: '' });
+    setInputValue('');
     localStorage.removeItem('inputValue');
   };
 
@@ -33,8 +25,8 @@ function SearchInput() {
         type="text"
         maxLength={35}
         placeholder="Search"
-        value={searchInputState.inputValue}
-        onChange={handleChange}
+        value={inputValue}
+        onChange={(e) => setInputValue(e.target.value)}
       />
       <div
         className="searchInput__cross"
