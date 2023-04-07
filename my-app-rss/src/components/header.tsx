@@ -44,7 +44,9 @@ function Header() {
             </li>
           </ul>
         </nav>
-        <div className="header__title">{pageTitle.pageTitle}</div>
+        <div data-testid="page-title" className="header__title">
+          {pageTitle.pageTitle}
+        </div>
       </div>
     </header>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from './card';
-import { FormInputData } from './types';
+import { FormInputData } from '../types';
 
 interface CardListFormProps {
   formSubmissions?: FormInputData[];
@@ -8,7 +8,7 @@ interface CardListFormProps {
 
 export function CarListForm({ formSubmissions = [] }: CardListFormProps) {
   return (
-    <div className="cardList__wrapper wrapper">
+    <div data-testid="card-list" className="cardList__wrapper wrapper">
       {formSubmissions
         .slice()
         .reverse()

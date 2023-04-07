@@ -36,6 +36,47 @@ export interface CartItem {
   image: string;
 }
 
+export interface ImagesProps {
+  id: string;
+  alt_description: string;
+  user: {
+    name: string;
+    instagram_username: string;
+  };
+  likes: number;
+  urls: {
+    regular: string;
+  };
+  onClick: () => void;
+}
+
+export interface ItemProps {
+  id: string;
+  urls: {
+    full: string;
+  };
+  alt_description: string;
+  updated_at: string;
+  likes: number;
+  description: string;
+  user: {
+    name: string;
+    instagram_username: string;
+  };
+  width: number;
+  height: number;
+}
+
+export interface ImageContextType {
+  responseMain: ImagesProps[] | null;
+  isLoadingMain: boolean;
+  errorMain: string | Error | null;
+  fetchDataMain: (url: string) => Promise<void>;
+  searchImage: string;
+  setSearchImage: (value: string) => void;
+  handleImageClick: (data: ImagesProps) => void;
+}
+
 export enum Color {
   BLACK = 'black',
   WHITE = 'white',

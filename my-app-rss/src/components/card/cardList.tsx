@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from './card';
-import products from './../assets/products.json';
+import products from '../../assets/products.json';
 
 export function CardList() {
   return (
