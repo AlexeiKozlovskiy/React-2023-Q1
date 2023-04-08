@@ -16,7 +16,7 @@ export function ImageList({ responseMain, isLoadingMain }: ImageListProps) {
     <div data-testid="image-list" className="cardList__cotainer wrapper">
       <PreloaderCircle isLoading={isLoadingMain}>
         <div className="cardList__wrapper wrapper">
-          {responseMain!.map((data) => (
+          {responseMain.map((data) => (
             <Image key={data.id} {...data} onClick={() => handleImageClick(data)} />
           ))}
         </div>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, useContext, KeyboardEventHandler } from 'react';
 import { ImageContext } from '../../pages/mainPage/mainPage';
-import { baseUrl, accessKey } from '../../utils';
+import { baseUrl } from '../../utils';
 
 function SearchInput() {
   const savedInputValue = useRef(localStorage.getItem('inputValue') || '');
@@ -18,7 +18,9 @@ function SearchInput() {
   }, [inputValue]);
 
   const search = () => {
-    fetchDataMain(`${baseUrl}/search/photos?page=1&query=${inputValue}&client_id=${accessKey}`);
+    fetchDataMain(
+      `${baseUrl}/search/photos?page=1&query=${inputValue}&client_id=${process.env.REACT_APP_ACCESS_KEY}`
+    );
     setSearchImage(inputValue);
   };
 

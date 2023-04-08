@@ -3,7 +3,7 @@ import { ImageList } from '../../components/image/imageList';
 import React, { createContext, useState, useRef } from 'react';
 import { useFetchMain, useFetchItem } from '../../components/useFetch';
 import { ImageContextType, ImagesProps } from '../../components/types';
-import { baseUrl, accessKey } from '../../utils';
+import { baseUrl } from '../../utils';
 import { Modal } from '../../components/modal/modal';
 import { PreloaderCircle } from '../../components/preloader/preloaderCircle';
 
@@ -22,14 +22,14 @@ export function MainPage() {
   const [searchImage, setSearchImage] = useState('');
   const [showModal, setShowModal] = useState(false);
   const { responseMain, isLoadingMain, errorMain, fetchDataMain } = useFetchMain(
-    `${baseUrl}/search/photos?page=1&query=${savedInputValue.current}/&client_id=${accessKey}`
+    `${baseUrl}/search/photos?page=1&query=${savedInputValue.current}/&client_id=${process.env.REACT_APP_ACCESS_KEY}`
     // `${baseUrl}/photos/?&client_id=${accessKey}`
   );
   const { responseItem, isLoadingItem, fetchDataItem } = useFetchItem('');
 
   function handleImageClick(data: ImagesProps) {
     setShowModal(true);
-    fetchDataItem(`${baseUrl}/photos/${data.id}/?&client_id=${accessKey}`);
+    fetchDataItem(`${baseUrl}/photos/${data.id}/?&client_id=${process.env.REACT_APP_ACCESS_KEY}`);
     document.body.style.overflowY = 'hidden';
   }
 
