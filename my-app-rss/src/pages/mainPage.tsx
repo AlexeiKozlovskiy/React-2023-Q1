@@ -82,13 +82,21 @@ export function MainPage() {
             />
             <div className="modal__text">
               <div>{responseItem.description}</div>
-              <div>Load {responseItem.updated_at.slice(0, 10)}</div>
-              <div>&#9829;{responseItem.likes}</div>
-              <div>Load user {responseItem.user.name}</div>
-              <div>Load user inst {responseItem.user.instagram_username}</div>
               <div>
-                Size {responseItem.width}x{responseItem.height}
+                <span>Load date</span> {responseItem.updated_at.slice(0, 10)}
               </div>
+              <div>
+                <span>Load</span> {responseItem.user.name}
+              </div>
+              <div>
+                {' '}
+                <span>Load user inst</span> {responseItem.user.instagram_username}
+              </div>
+              <div>
+                <span>Size </span>
+                {responseItem.width}x{responseItem.height}
+              </div>
+              <div>&#9829;{responseItem.likes}</div>
             </div>
             <button onClick={handleSave} className="modal__btn">
               Save
