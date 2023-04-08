@@ -23,19 +23,16 @@ export function MainPage() {
   const [showModal, setShowModal] = useState(false);
   const { responseMain, isLoadingMain, errorMain, fetchDataMain } = useFetchMain(
     `${baseUrl}/search/photos?page=1&query=${savedInputValue.current}/&client_id=${process.env.REACT_APP_ACCESS_KEY}`
-    // `${baseUrl}/photos/?&client_id=${accessKey}`
   );
   const { responseItem, isLoadingItem, fetchDataItem } = useFetchItem('');
 
   function handleImageClick(data: ImagesProps) {
     setShowModal(true);
     fetchDataItem(`${baseUrl}/photos/${data.id}/?&client_id=${process.env.REACT_APP_ACCESS_KEY}`);
-    document.body.style.overflowY = 'hidden';
   }
 
   function handleClose() {
     setShowModal(false);
-    document.body.style.overflowY = 'auto';
   }
   function handleSave() {
     window.open(responseItem.urls.full, '_blank');
