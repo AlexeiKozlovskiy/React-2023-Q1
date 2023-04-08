@@ -1,11 +1,11 @@
-import SearchInput from '../components/searchInput/searchInput';
-import { ImageList } from '../components/image/imageList';
+import SearchInput from '../../components/searchInput/searchInput';
+import { ImageList } from '../../components/image/imageList';
 import React, { createContext, useState, useRef } from 'react';
-import { useFetchMain, useFetchItem } from '../components/useFetch';
-import { ImageContextType, ImagesProps } from './../components/types';
-import { baseUrl, accessKey } from './../utils';
-import { Modal } from './../components/modal/modal';
-import { PreloaderCircle } from './../components/preloader/preloaderCircle';
+import { useFetchMain, useFetchItem } from '../../components/useFetch';
+import { ImageContextType, ImagesProps } from '../../components/types';
+import { baseUrl, accessKey } from '../../utils';
+import { Modal } from '../../components/modal/modal';
+import { PreloaderCircle } from '../../components/preloader/preloaderCircle';
 
 export const ImageContext = createContext<ImageContextType>({
   responseMain: [],

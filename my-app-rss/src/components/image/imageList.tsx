@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Image } from './image';
-import { ImageContext } from '../../pages/mainPage';
+import { ImageContext } from '../../pages/mainPage/mainPage';
 import { ImageContextType, ImagesProps } from '../types';
 import { PreloaderCircle } from '../preloader/preloaderCircle';
 

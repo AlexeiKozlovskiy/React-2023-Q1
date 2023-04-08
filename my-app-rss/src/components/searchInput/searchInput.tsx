@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useContext, KeyboardEventHandler } from 'react';
-import { ImageContext } from '../../pages/mainPage';
+import { ImageContext } from '../../pages/mainPage/mainPage';
 import { baseUrl, accessKey } from '../../utils';
 
 function SearchInput() {

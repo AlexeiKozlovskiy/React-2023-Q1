@@ -16,7 +16,7 @@ export const useFetchMain = (url: string) => {
       if (err instanceof Error) {
         setErrorMain(err.message);
       } else {
-        setErrorMain('An unknown error occurred.');
+        setErrorMain('error data main');
       }
     } finally {
       setIsLoadingMain(false);
@@ -65,7 +65,7 @@ export const useFetchItem = (url: string) => {
       if (err instanceof Error) {
         setErrorItem(err.message);
       } else {
-        setErrorItem('An unknown error occurred.');
+        setErrorItem('error data item');
       }
     } finally {
       setIsLoadingItem(false);

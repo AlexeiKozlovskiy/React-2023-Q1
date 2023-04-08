@@ -1,9 +1,9 @@
 import App from './../../App';
 import React from 'react';
 import { AboutUs } from 'pages/aboutUs';
-import { MainPage } from 'pages/mainPage';
+import { MainPage } from 'pages/mainPage/mainPage';
 import { NotFound } from 'pages/notFound';
-import { FormPage } from 'pages/formPage';
+import { FormPage } from 'pages/formPage/formPage';
 import { createBrowserRouter } from 'react-router-dom';
 
 export enum Route {

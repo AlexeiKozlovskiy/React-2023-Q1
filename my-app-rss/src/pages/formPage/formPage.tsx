@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { CarListForm } from '../components/card/cardListForm';
-import { Form } from '../components/form/form';
-import { FormInputData } from './../components/types';
+import { CarListForm } from '../../components/card/cardListForm';
+import { Form } from '../../components/form/form';
+import { FormInputData } from '../../components/types';
 
 interface FormState {
   formSubmissions: FormInputData[];

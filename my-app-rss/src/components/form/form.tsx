@@ -73,7 +73,7 @@ export function Form(props: FormSubmitProps) {
           <select id="colorSelect" {...register('color', { required: true })}>
             <option value="">Select color</option>
             {colorOptions.map((color) => (
-              <option key={color} value={color}>
+              <option data-testid={`select-${color}`} key={color} value={color}>
                 {color}
               </option>
             ))}
@@ -86,6 +86,7 @@ export function Form(props: FormSubmitProps) {
           {colorOptions.map((availableColors) => (
             <div key={availableColors}>
               <input
+                data-testid={`checkbox-${availableColors}`}
                 {...register('availableColors', { required: true })}
                 type="checkbox"
                 id={`colorCheckbox-${availableColors}`}
@@ -108,7 +109,7 @@ export function Form(props: FormSubmitProps) {
                 {...register('category', { required: true })}
                 type="radio"
                 id={`category-${category.toLowerCase().replace(' ', '-')}`}
-                data-testid={`${category.toLowerCase().replace(' ', '-')}`}
+                data-testid={`radio-${category.toLowerCase().replace(' ', '-')}`}
                 name="category"
                 value={category}
               />
