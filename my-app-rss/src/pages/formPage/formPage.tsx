@@ -1,44 +1,31 @@
-import React, { useState } from 'react';
-import { CarListForm } from '../../components/card/cardListForm';
+import React, { useState, useRef } from 'react';
+import { CarListForm } from '../../components/cardForm/cardListForm';
 import { Form } from '../../components/form/form';
-import { FormInputData } from '../../components/types';
-
-interface FormState {
-  formSubmissions: FormInputData[];
-  showMessage: boolean;
-}
+import { StateReducerProps } from '../../components/types';
+import { useSelector } from 'react-redux';
 
 export function FormPage() {
-  const [formState, setFormState] = useState<FormState>({
-    formSubmissions: [],
-    showMessage: false,
-  });
-
-  const handleFormSubmit = (formData: FormInputData) => {
-    setFormState({
-      formSubmissions: [...formState.formSubmissions, formData],
-      showMessage: true,
-    });
-    window.setTimeout(() => {
-      hideMessage();
+  const forms = useSelector((state: StateReducerProps) => state.form);
+  const [formSuccessMessage, setFormSuccessMessage] = useState(false);
+  const timeoutId = useRef<number>();
+  const handleFormSubmit = () => {
+    setFormSuccessMessage(true);
+    if (timeoutId) {
+      window.clearTimeout(timeoutId.current);
+    }
+    timeoutId.current = window.setTimeout(() => {
+      setFormSuccessMessage(false);
     }, 5000);
-  };
-
-  const hideMessage = () => {
-    setFormState((prevState) => ({
-      ...prevState,
-      showMessage: false,
-    }));
   };
 
   return (
     <main className="form-main wrapper">
       <aside>
         <Form onFormSubmit={handleFormSubmit} />
-        {formState.showMessage && <div className="success-message">Data has been saved</div>}
+        {formSuccessMessage && <div className="success-message">Data has been saved</div>}
       </aside>
       <section className="form-main__section">
-        <CarListForm formSubmissions={formState.formSubmissions} />
+        <CarListForm formSubmissions={forms} />
       </section>
     </main>
   );

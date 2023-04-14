@@ -41,13 +41,11 @@ export interface ImagesProps {
   alt_description: string;
   user: {
     name: string;
-    instagram_username: string;
   };
   likes: number;
   urls: {
     regular: string;
   };
-  onClick: () => void;
 }
 
 export interface ItemProps {
@@ -67,14 +65,12 @@ export interface ItemProps {
   height: number;
 }
 
-export interface ImageContextType {
-  responseMain: ImagesProps[] | null;
-  isLoadingMain: boolean;
-  errorMain: string | Error | null;
-  fetchDataMain: (url: string) => Promise<void>;
-  searchImage: string;
-  setSearchImage: (value: string) => void;
-  handleImageClick: (data: ImagesProps) => void;
+export interface StateReducerProps {
+  search: {
+    searchValue: string;
+  };
+  images: ImagesProps[];
+  form: FormInputData[];
 }
 
 export enum Color {

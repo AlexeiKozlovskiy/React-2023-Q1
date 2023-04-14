@@ -1,7 +1,11 @@
 import React from 'react';
 import { ImagesProps } from '../types';
 
-export function Image({ user, alt_description, urls, likes, onClick }: ImagesProps) {
+interface ImageCardsProps extends ImagesProps {
+  onClick: () => void;
+}
+
+export function Image({ user, alt_description, urls, likes, onClick }: ImageCardsProps) {
   function handleImageClick() {
     onClick();
   }

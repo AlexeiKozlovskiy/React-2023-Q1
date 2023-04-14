@@ -7,7 +7,6 @@ interface ModalProps {
 }
 
 export function Modal({ onClose, children }: ModalProps) {
-  // const { onClose, children } = props;
   return (
     <div className="modal__background" onClick={onClose}>
       <div className="modal__wrapper" onClick={(e) => e.stopPropagation()}>

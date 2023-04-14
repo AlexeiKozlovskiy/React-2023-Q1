@@ -5,23 +5,28 @@ import { Color } from '../types';
 import { Category } from '../types';
 import { ErrorMessage } from './formErrorMessage';
 import { useForm } from 'react-hook-form';
+import { setFormData } from '../reducers/formSlice';
+import { useDispatch } from 'react-redux';
 
 interface FormSubmitProps {
-  onFormSubmit: (formData: FormInputData) => void;
+  onFormSubmit: () => void;
 }
 
 export function Form(props: FormSubmitProps) {
+  const dispatch = useDispatch();
+  const [imageData, setImageData] = useState('');
   const {
     register,
     handleSubmit,
     formState: { errors },
     reset,
   } = useForm<FormInputData>();
-  const [imageData, setImageData] = useState('');
 
   const onSubmit = (data: FormInputData) => {
     const idDate = Date.now();
-    props.onFormSubmit({ ...data, id: idDate, image: imageData });
+    console.log(data);
+    dispatch(setFormData({ ...data, id: idDate, image: imageData }));
+    props.onFormSubmit();
     reset();
     setImageData('');
   };
@@ -46,6 +51,7 @@ export function Form(props: FormSubmitProps) {
           <label htmlFor="nameInput">Name</label>
           <input
             type="text"
+            data-testid="name-input"
             id="nameInput"
             {...register('name', { required: true, pattern: /^[a-zA-Zа-яА-Я\s]+$/i })}
           />
@@ -57,23 +63,37 @@ export function Form(props: FormSubmitProps) {
 
         <div className="input__container input__price-container">
           <label htmlFor="priceInput">Price</label>
-          <input type="number" id="priceInput" {...register('price', { required: true, min: 0 })} />
+          <input
+            type="number"
+            data-testid="price-input"
+            id="priceInput"
+            {...register('price', { required: true, min: 0 })}
+          />
           {errors.price?.type === 'required' && <ErrorMessage message="Please enter price" />}
           {errors.price?.type === 'min' && <ErrorMessage message="Price should be >= 0" />}
         </div>
 
         <div className="input__container input__collection-container">
           <label htmlFor="dateInput">Collection</label>
-          <input type="date" id="dateInput" {...register('collection', { required: true })} />
+          <input
+            type="date"
+            data-testid="collection-input"
+            id="dateInput"
+            {...register('collection', { required: true })}
+          />
           {errors.collection && <ErrorMessage message="Please enter collectiond" />}
         </div>
 
         <div className="input__container input__color-container">
           <label htmlFor="colorSelect">Color</label>
-          <select id="colorSelect" {...register('color', { required: true })}>
+          <select
+            id="colorSelect"
+            data-testid="color-select-input"
+            {...register('color', { required: true })}
+          >
             <option value="">Select color</option>
             {colorOptions.map((color) => (
-              <option data-testid={`select-${color}`} key={color} value={color}>
+              <option key={color} value={color}>
                 {color}
               </option>
             ))}
@@ -86,10 +106,10 @@ export function Form(props: FormSubmitProps) {
           {colorOptions.map((availableColors) => (
             <div key={availableColors}>
               <input
-                data-testid={`checkbox-${availableColors}`}
                 {...register('availableColors', { required: true })}
                 type="checkbox"
                 id={`colorCheckbox-${availableColors}`}
+                data-testid={`color-checkbox-input-${availableColors}`}
                 name="availableColors"
                 value={availableColors}
               />
@@ -109,7 +129,7 @@ export function Form(props: FormSubmitProps) {
                 {...register('category', { required: true })}
                 type="radio"
                 id={`category-${category.toLowerCase().replace(' ', '-')}`}
-                data-testid={`radio-${category.toLowerCase().replace(' ', '-')}`}
+                data-testid={`category-input-${category.toLowerCase().replace(' ', '-')}`}
                 name="category"
                 value={category}
               />
@@ -127,7 +147,8 @@ export function Form(props: FormSubmitProps) {
         <div className="input__container input__image-container">
           <label htmlFor="imageInput">Image</label>
           <input
-            {...register('image', { required: true, onChange: handleImageChange })}
+            {...register('image', { required: false, onChange: handleImageChange })}
+            data-testid="image-input"
             className="input__file"
             type="file"
             id="imageInput"
@@ -135,7 +156,9 @@ export function Form(props: FormSubmitProps) {
           />
           {errors.image && <ErrorMessage message="Please add image" />}
         </div>
-        <button className="input__btn">Submit</button>
+        <button className="input__btn" data-testid="btn-submit">
+          Submit
+        </button>
       </form>
     </div>
   );

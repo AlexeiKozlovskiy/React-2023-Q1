@@ -3,7 +3,7 @@ import React, { ReactNode } from 'react';
 
 interface PreloaderCircleProps {
   children?: ReactNode;
-  isLoading: boolean;
+  isLoading: boolean | boolean;
 }
 
 export const PreloaderCircle = ({ children, isLoading }: PreloaderCircleProps) => {
