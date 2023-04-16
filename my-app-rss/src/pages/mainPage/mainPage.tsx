@@ -1,7 +1,7 @@
 import SearchInput from '../../components/searchInput/searchInput';
 import { ImageList } from '../../components/imagesMain/imageList';
 import React, { useState, useEffect } from 'react';
-import { ImagesProps, ItemProps } from '../../components/types';
+import { ImagesProps } from '../../components/types';
 import { StateReducerProps } from '../../components/types';
 import { Modal } from '../../components/modal/modal';
 import { PreloaderCircle } from '../../components/preloader/preloaderCircle';
@@ -15,31 +15,12 @@ import {
 
 export function MainPage() {
   const [showModal, setShowModal] = useState(false);
-  const [cardItem, setCardItem] = useState<ItemProps>({
-    id: '',
-    urls: {
-      full: '',
-    },
-    alt_description: '',
-    updated_at: '',
-    likes: 0,
-    description: '',
-    user: {
-      name: '',
-      instagram_username: '',
-    },
-    width: 0,
-    height: 0,
-  });
   const [id, setId] = useState('hfV9tSBEvlU');
   const dispatch = useDispatch();
   const imagesInStore = useSelector((state: StateReducerProps) => state.images);
   const searchValueInStore = useSelector((state: StateReducerProps) => state.search.searchValue);
   const { data: cardListSearch = [], isFetching: isFetchingSearch } = useGetSearchCardsQuery(
-    searchValueInStore ?? '',
-    {
-      skip: !searchValueInStore,
-    }
+    searchValueInStore ?? ''
   );
   const { data: cardListStock = [], isFetching: isFetchingStock } = useGetStockCardsQuery();
   const { data: cardItemClick, isFetching: isFetchingClick } = useGetCardQuery(id);
@@ -67,32 +48,17 @@ export function MainPage() {
   function handleImageClick(data: ImagesProps) {
     setId(data.id);
     setShowModal(true);
-    setCardItem(cardItemClick!);
     document.body.style.overflowY = 'hidden';
   }
 
   function handleClose() {
     setShowModal(false);
     document.body.style.overflowY = 'auto';
-    setCardItem({
-      id: '',
-      urls: {
-        full: '',
-      },
-      alt_description: '',
-      updated_at: '',
-      likes: 0,
-      description: '',
-      user: {
-        name: '',
-        instagram_username: '',
-      },
-      width: 0,
-      height: 0,
-    });
   }
   function handleSave() {
-    window.open(cardItem.urls.full, '_blank');
+    if (cardItemClick) {
+      window.open(cardItemClick.urls.full, '_blank');
+    }
   }
 
   return (
@@ -119,20 +85,29 @@ export function MainPage() {
       {showModal ? (
         <Modal onClose={handleClose}>
           <PreloaderCircle isLoading={isFetchingClick}>
-            <img className="modal__image" src={cardItem.urls.full} alt={cardItem.alt_description} />
-            <div className="modal__text">
-              <div>{cardItem.description}</div>
-              <div>Load {cardItem.updated_at.slice(0, 10)}</div>
-              <div>&#9829;{cardItem.likes}</div>
-              <div>Load user {cardItem.user.name}</div>
-              <div>Load user inst {cardItem.user.instagram_username}</div>
-              <div>
-                Size {cardItem.width}x{cardItem.height}
-              </div>
-            </div>
-            <button onClick={handleSave} className="modal__btn">
-              Save
-            </button>
+            {!cardItemClick && <div />}
+            {cardItemClick && (
+              <>
+                <img
+                  className="modal__image"
+                  src={cardItemClick!.urls.full}
+                  alt={cardItemClick!.alt_description}
+                />
+                <div className="modal__text">
+                  <div>{cardItemClick!.description}</div>
+                  <div>Load {cardItemClick!.updated_at.slice(0, 10)}</div>
+                  <div>&#9829;{cardItemClick!.likes}</div>
+                  <div>Load user {cardItemClick!.user.name}</div>
+                  <div>Load user inst {cardItemClick!.user.instagram_username}</div>
+                  <div>
+                    Size {cardItemClick!.width}x{cardItemClick!.height}
+                  </div>
+                </div>
+                <button onClick={handleSave} className="modal__btn">
+                  Save
+                </button>
+              </>
+            )}
           </PreloaderCircle>
         </Modal>
       ) : null}
