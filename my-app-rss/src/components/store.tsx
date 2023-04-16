@@ -4,7 +4,7 @@ import imagesSlice from './reducers/imagesSlice';
 import searchSlice from './reducers/searchSlice';
 import { unsplashApi } from './api/cardsApi';
 import { combineReducers } from '@reduxjs/toolkit';
-import userReducer from '../components/reducers/formSlice';
+import userReducer from './reducers/formSlice';
 
 const rootReducer = combineReducers({
   user: userReducer,

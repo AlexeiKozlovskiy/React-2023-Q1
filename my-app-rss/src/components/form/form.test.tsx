@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, screen, fireEvent, waitFor } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import { Form } from './form';
 import { FormPage } from '../../pages/formPage/formPage';
 import { act } from 'react-dom/test-utils';
@@ -106,12 +106,10 @@ describe('Form page', () => {
       fireEvent.change(colorSelect, { target: { value: 'black' } });
       fireEvent.click(colorCheckbox);
       fireEvent.click(categoryRadio);
-      await userEvent.upload(imageInput, file);
+      userEvent.upload(imageInput, file);
       fireEvent.click(submitButton);
     });
 
-    await waitFor(() => {
-      expect(screen.getByText(/Data has been saved/i)).toBeInTheDocument();
-    });
+    expect(screen.getByText(/Data has been saved/i)).toBeInTheDocument();
   });
 });

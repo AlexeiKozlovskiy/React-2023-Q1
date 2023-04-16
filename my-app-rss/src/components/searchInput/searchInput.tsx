@@ -1,8 +1,7 @@
 import React, { useState, KeyboardEventHandler, useEffect } from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { setImagesData, clearImagesData } from '../reducers/imagesSlice';
 import { setSearchData, clearSearchData } from '../reducers/searchSlice';
-import { useSelector } from 'react-redux';
 import { StateReducerProps } from '../../components/types';
 import { useGetSearchCardsQuery, useGetStockCardsQuery } from './../../components/api/cardsApi';
 

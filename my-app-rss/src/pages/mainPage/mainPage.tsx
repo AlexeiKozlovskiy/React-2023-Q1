@@ -5,9 +5,8 @@ import { ImagesProps, ItemProps } from '../../components/types';
 import { StateReducerProps } from '../../components/types';
 import { Modal } from '../../components/modal/modal';
 import { PreloaderCircle } from '../../components/preloader/preloaderCircle';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { setImagesData, clearImagesData } from '../../components/reducers/imagesSlice';
-import { useSelector } from 'react-redux';
 import {
   useGetSearchCardsQuery,
   useGetStockCardsQuery,
@@ -65,12 +64,10 @@ export function MainPage() {
     isFetchingStock,
   ]);
 
-  async function handleImageClick(data: ImagesProps) {
+  function handleImageClick(data: ImagesProps) {
     setId(data.id);
     setShowModal(true);
-    if (cardItemClick) {
-      setCardItem(cardItemClick);
-    }
+    setCardItem(cardItemClick!);
     document.body.style.overflowY = 'hidden';
   }
 
