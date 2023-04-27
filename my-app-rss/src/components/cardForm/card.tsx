@@ -12,7 +12,7 @@ export function Card({
 }: Partial<CartItem>) {
   return (
     <div data-testid="card" className="card">
-      <img className="card__img" src={process.env.PUBLIC_URL + `${image}`} alt={name} />
+      <img className="card__img" src={image} alt={name} />
       <h3>{name}</h3>
       <div className="card__info">
         <div>

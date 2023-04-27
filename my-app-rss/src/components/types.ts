@@ -88,3 +88,11 @@ export enum Category {
   GARLAND_AND_WREATH = 'Garland & Wreath',
   DO_IT_YOURSELF = 'Do It Yourself',
 }
+
+enum ROUTES {
+  MAIN = '/',
+  ABOUT = '/about',
+  FORM = '/form',
+}
+
+export default ROUTES;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import Header from './../../components/header';
+import Header from '../header/header';
 
 describe('routes', () => {
   it('sets page title based on current route', () => {

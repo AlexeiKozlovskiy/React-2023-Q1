@@ -3,7 +3,7 @@ import { FormInputData } from '../types';
 
 const initialState: FormInputData[] = [];
 
-const formSlice = createSlice({
+export const formSlice = createSlice({
   name: 'form',
   initialState,
   reducers: {

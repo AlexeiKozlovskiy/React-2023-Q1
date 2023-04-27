@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
-import { Route } from './router/routes';
+import ROUTES from '../types';
 
 interface PageTitleState {
   pageTitle: string;
@@ -14,13 +14,13 @@ function Header() {
   const location = useLocation();
   useEffect(() => {
     switch (location.pathname) {
-      case Route.MAIN:
+      case ROUTES.MAIN:
         setPageTitle({ pageTitle: 'Main' });
         break;
-      case Route.FORM:
+      case ROUTES.FORM:
         setPageTitle({ pageTitle: 'Form' });
         break;
-      case Route.ABOUT:
+      case ROUTES.ABOUT:
         setPageTitle({ pageTitle: 'About Us' });
         break;
       default:
@@ -34,13 +34,13 @@ function Header() {
         <nav className="header__nav">
           <ul className="header__list">
             <li className="header__item">
-              <NavLink to={Route.MAIN}>Main</NavLink>
+              <NavLink to={ROUTES.MAIN}>Main</NavLink>
             </li>
             <li className="header__item">
-              <NavLink to={Route.FORM}>Form</NavLink>
+              <NavLink to={ROUTES.FORM}>Form</NavLink>
             </li>
             <li className="header__item">
-              <NavLink to={Route.ABOUT}>About Us</NavLink>
+              <NavLink to={ROUTES.ABOUT}>About Us</NavLink>
             </li>
           </ul>
         </nav>
