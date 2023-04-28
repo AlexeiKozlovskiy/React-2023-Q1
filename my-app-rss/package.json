@@ -40,7 +40,8 @@
     "test:cypress": "start-server-and-test start http://localhost:4000 cypress:browser",
     "coverage:cypress": "npx nyc report --reporter=text-summary",
     "cypress:browser": "cypress open",
-    "cypress:console": "cypress run"
+    "cypress:console": "cypress run",
+    "build": "vite build"
   },
   "devDependencies": {
     "@cypress/code-coverage": "^3.10.4",
