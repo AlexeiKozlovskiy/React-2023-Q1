@@ -4,9 +4,10 @@ import { Form } from './../../components/form/form';
 import { FormPage } from '../../pages/formPage/formPage';
 import { Provider } from 'react-redux';
 import store from './../../components/store';
+import { vi } from 'vitest';
 
 describe('Form page', () => {
-  const mockOnFormSubmit = jest.fn();
+  const mockOnFormSubmit = vi.fn();
 
   it('render form page components', () => {
     render(

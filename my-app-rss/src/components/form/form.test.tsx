@@ -6,9 +6,10 @@ import { act } from 'react-dom/test-utils';
 import userEvent from '@testing-library/user-event';
 import { Provider } from 'react-redux';
 import store from './../store';
+import { vi } from 'vitest';
 
 describe('Form page', () => {
-  const mockOnFormSubmit = jest.fn();
+  const mockOnFormSubmit = vi.fn();
   it('render form page components', () => {
     render(
       <Provider store={store}>
@@ -95,8 +96,6 @@ describe('Form page', () => {
     const imageInput = screen.getByTestId('image-input');
     const submitButton = screen.getByTestId('btn-submit');
 
-    global.URL.createObjectURL = jest.fn();
-    global.alert = jest.fn();
     const file = new File(['test'], 'test.png', { type: 'image/png' });
 
     await act(async () => {

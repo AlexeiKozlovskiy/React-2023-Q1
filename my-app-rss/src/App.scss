@@ -78,7 +78,7 @@ body {
   }
 
   &__cross {
-    background: url(./../public/img/cross.svg) center no-repeat;
+    background: url('/img/cross.svg') center no-repeat;
     width: 16px;
     height: 16px;
     background-size: cover;
@@ -159,7 +159,7 @@ body {
   }
 
   &__img {
-    background: url('./../public/img/blowfish-glass-hanging-figurine-9cm-blue.jpg') no-repeat center;
+    background: url('/img/blowfish-glass-hanging-figurine-9cm-blue.jpg') no-repeat center;
     width: 500px;
     height: 500px;
     background-size: contain;
@@ -235,6 +235,7 @@ body {
 .cardList {
   &__cotainer {
     max-width: 900px;
+    min-height: 550px;
   }
 
   &__header {
@@ -265,7 +266,7 @@ body {
   }
 
   &__school-img {
-    background: url(./../public/img/rs_school_js.svg) center no-repeat;
+    background: url('/img/rs_school_js.svg') center no-repeat;
     width: 100px;
     height: 45px;
     background-size: contain;

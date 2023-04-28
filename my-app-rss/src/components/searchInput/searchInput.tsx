@@ -1,7 +1,8 @@
 import React, { useState, KeyboardEventHandler, useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { setImagesData, clearImagesData } from '../reducers/imagesSlice';
 import { setSearchData, clearSearchData } from '../reducers/searchSlice';
+import { useSelector } from 'react-redux';
 import { StateReducerProps } from '../../components/types';
 import { useGetSearchCardsQuery, useGetStockCardsQuery } from './../../components/api/cardsApi';
 
@@ -15,9 +16,8 @@ function SearchInput() {
       setInputValue(searchValueInStore);
     }
   }, [searchValueInStore]);
-  const { data: cardListSearch = [] } = useGetSearchCardsQuery(inputValue ?? '', {
-    skip: !inputValue,
-  });
+
+  const { data: cardListSearch = [] } = useGetSearchCardsQuery(searchValueInStore);
   const { data: cardListStock = [] } = useGetStockCardsQuery();
 
   async function search() {
@@ -46,6 +46,7 @@ function SearchInput() {
   return (
     <div className="searchInput__wrapper wrapper">
       <input
+        className="searchInput__input"
         type="text"
         maxLength={35}
         placeholder="Search"

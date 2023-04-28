@@ -6,16 +6,13 @@ import { createServer as createViteServer } from 'vite';
 import { Request, Response, NextFunction } from 'express';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const PORT = 3000;
+const PORT = 4000;
 
 async function createServer(): Promise<void> {
   const app = express();
   const vite = await createViteServer({
     server: { middlewareMode: true },
     appType: 'custom',
-    resolve: {
-      extensions: ['.js', '.ts'],
-    },
   });
   app.use(vite.middlewares);
 

@@ -4,9 +4,10 @@ import { Image } from './image';
 import { ImageList } from './imageList';
 import { Provider } from 'react-redux';
 import store from './../store';
+import { vi } from 'vitest';
 
 describe('Image component', () => {
-  const mockOnClick = jest.fn();
+  const mockOnClick = vi.fn();
   const imageProps = {
     id: '1',
     user: {
@@ -52,7 +53,7 @@ describe('Image component', () => {
 });
 
 describe('Images list component', () => {
-  const mockOnClick = jest.fn();
+  const mockOnClick = vi.fn();
   const responseMain = [
     {
       id: 'ewfwf1',

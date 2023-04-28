@@ -19,9 +19,8 @@ export function MainPage() {
   const dispatch = useDispatch();
   const imagesInStore = useSelector((state: StateReducerProps) => state.images);
   const searchValueInStore = useSelector((state: StateReducerProps) => state.search.searchValue);
-  const { data: cardListSearch = [], isFetching: isFetchingSearch } = useGetSearchCardsQuery(
-    searchValueInStore ?? ''
-  );
+  const { data: cardListSearch = [], isFetching: isFetchingSearch } =
+    useGetSearchCardsQuery(searchValueInStore);
   const { data: cardListStock = [], isFetching: isFetchingStock } = useGetStockCardsQuery();
   const { data: cardItemClick, isFetching: isFetchingClick } = useGetCardQuery(id);
 
@@ -95,15 +94,17 @@ export function MainPage() {
                 />
                 <div className="modal__text">
                   <div>{cardItemClick!.description}</div>
-                  <div>Load {cardItemClick!.updated_at.slice(0, 10)}</div>
-                  <div>&#9829;{cardItemClick!.likes}</div>
-                  <div>Load user {cardItemClick!.user.name}</div>
-                  <div>Load user inst {cardItemClick!.user.instagram_username}</div>
-                  <div>
+                  <div data-testid="modal-load">Load {cardItemClick!.updated_at.slice(0, 10)}</div>
+                  <div data-testid="modal-likes">♥{cardItemClick!.likes}</div>
+                  <div data-testid="modal-load_user">Load user {cardItemClick!.user.name}</div>
+                  <div data-testid="modal-load_inst">
+                    Load user inst {cardItemClick!.user.instagram_username}
+                  </div>
+                  <div data-testid="modal-size">
                     Size {cardItemClick!.width}x{cardItemClick!.height}
                   </div>
                 </div>
-                <button onClick={handleSave} className="modal__btn">
+                <button className="modal__btn-save" onClick={handleSave}>
                   Save
                 </button>
               </>

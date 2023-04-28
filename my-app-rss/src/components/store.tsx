@@ -3,12 +3,6 @@ import formSlice from './reducers/formSlice';
 import imagesSlice from './reducers/imagesSlice';
 import searchSlice from './reducers/searchSlice';
 import { unsplashApi } from './api/cardsApi';
-import { combineReducers } from '@reduxjs/toolkit';
-import userReducer from 'components/reducers/formSlice';
-
-const rootReducer = combineReducers({
-  user: userReducer,
-});
 
 export const store = configureStore({
   reducer: {
@@ -22,5 +16,4 @@ export const store = configureStore({
 
 export default store;
 
-export type RootState = ReturnType<typeof rootReducer>;
 export type AppStore = ReturnType<typeof configureStore>;

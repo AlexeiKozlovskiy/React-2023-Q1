@@ -1,14 +1,9 @@
 {
-  "extends": "ts-node/node16/tsconfig.json",
-  "ts-node": {
-    "esm": true,
-    "experimentalSpecifierResolution": "node",
-  },
   "compilerOptions": {
-    "target": "esnext",
+    "target": "ESNext",
     "lib": ["dom", "dom.iterable", "esnext"],
     // "types": ["vite/client", "vite-plugin-svgr/client", "@testing-library/jest-dom"],
-    // "types": ["vitest/globals", "@testing-library/jest-dom"],
+    // "types": ["node", "jest", "cypress", "@testing-library/jest-dom"],
     "jsx": "react-jsx",
     "module": "esnext",
     "moduleResolution": "node",
@@ -20,25 +15,10 @@
     "strict": true,
     "skipLibCheck": true,
     "baseUrl": "./src",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
   },
-  // "include": ["./src/**/*", "styled.d.ts"]
-  "include": ["src", "vite.config.ts", ".eslintrc"]
-
-  // "include": ["vite.config.ts", ".eslintrc.cjs", "src"],
-  // "include": [
-  //   "vite.config.tsxx",
-  //   ".eslintrc.cjs",
-  //   "server.jsxr.ts",
-  //   "**/*.ts",
-  //   "**/*.tsx",
-  //   "**/*.cjs",
-  //   "**/*.mjs",
-  //   "src",
-  //   "./src/**/*",
-  //   "styled.d.ts",
-  //   "server.ts",
-  //   "server.ts"
-  // ],
-
+  "include": ["./src/**/*", "styled.d.ts"],
+  "ts-node": {
+    "esm": true,
+  },
 }
