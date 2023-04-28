@@ -1,9 +1,8 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { Form } from './../../components/form/form';
 import { FormPage } from '../../pages/formPage/formPage';
 import { Provider } from 'react-redux';
-import store from './../../components/store';
+import { store } from './../../components/store';
 import { vi } from 'vitest';
 
 describe('Form page', () => {

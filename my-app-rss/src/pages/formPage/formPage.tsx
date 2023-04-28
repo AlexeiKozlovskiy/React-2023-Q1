@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import { CarListForm } from '../../components/cardForm/cardListForm';
 import { Form } from '../../components/form/form';
 import { StateReducerProps } from '../../components/types';

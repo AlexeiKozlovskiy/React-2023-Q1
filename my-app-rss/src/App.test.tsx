@@ -1,15 +1,13 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { AboutUs } from 'pages/aboutUs';
 import { NotFound } from 'pages/notFound';
-import Footer from './components/footer/footer';
-import Header from './components/header/header';
+import { Provider } from 'react-redux';
 import { MemoryRouter } from 'react-router-dom';
 import { describe, expect } from 'vitest';
-
-import App from 'App';
-import { Provider } from 'react-redux';
-import store from './components/store';
+import { Footer } from './components/footer/footer';
+import { Header } from './components/header/header';
+import { App } from './App';
+import { store } from './components/store';
 
 describe('any components app', () => {
   it('render app', () => {

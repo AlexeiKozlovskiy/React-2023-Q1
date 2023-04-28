@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
-import ROUTES from '../types';
+import { ROUTES } from '../types';
 
 interface PageTitleState {
   pageTitle: string;
 }
 
-function Header() {
+export function Header() {
   const [pageTitle, setPageTitle] = useState<PageTitleState>({
     pageTitle: '',
   });
@@ -52,4 +52,4 @@ function Header() {
   );
 }
 
-export default Header;
+// export default Header;

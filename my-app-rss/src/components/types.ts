@@ -89,10 +89,8 @@ export enum Category {
   DO_IT_YOURSELF = 'Do It Yourself',
 }
 
-enum ROUTES {
+export enum ROUTES {
   MAIN = '/',
   ABOUT = '/about',
   FORM = '/form',
 }
-
-export default ROUTES;

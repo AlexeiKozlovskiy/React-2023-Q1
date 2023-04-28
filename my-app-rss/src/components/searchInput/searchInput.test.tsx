@@ -1,8 +1,7 @@
-import React from 'react';
 import { render, fireEvent, screen } from '@testing-library/react';
-import SearchInput from './../searchInput/searchInput';
+import { SearchInput } from './../searchInput/searchInput';
 import { Provider } from 'react-redux';
-import store from './../store';
+import { store } from './../store';
 
 describe('SearchInput', () => {
   it('should render the search input', () => {

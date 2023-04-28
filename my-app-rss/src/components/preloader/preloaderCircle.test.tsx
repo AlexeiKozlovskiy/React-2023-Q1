@@ -1,7 +1,6 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { PreloaderCircle } from './preloaderCircle';
-import store from './../store';
+import { store } from './../store';
 import { Provider } from 'react-redux';
 
 describe('preloader', () => {

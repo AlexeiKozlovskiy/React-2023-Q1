@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface ErrorMessage {
   message: string | null;
 }

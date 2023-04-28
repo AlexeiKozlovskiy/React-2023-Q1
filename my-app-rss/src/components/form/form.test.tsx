@@ -1,11 +1,10 @@
-import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { Form } from './form';
 import { FormPage } from '../../pages/formPage/formPage';
 import { act } from 'react-dom/test-utils';
 import userEvent from '@testing-library/user-event';
 import { Provider } from 'react-redux';
-import store from './../store';
+import { store } from './../store';
 import { vi } from 'vitest';
 
 describe('Form page', () => {

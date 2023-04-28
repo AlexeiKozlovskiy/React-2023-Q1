@@ -1,8 +1,7 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { MainPage } from './mainPage';
 import { Provider } from 'react-redux';
-import store from './../../components/store';
+import { store } from './../../components/store';
 
 describe('MainPage component', () => {
   it('renders the SearchInput component', () => {

@@ -145,7 +145,7 @@
       "14": {
         "start": {
           "line": 17,
-          "column": 29
+          "column": 36
         },
         "end": {
           "line": 22,
@@ -247,17 +247,17 @@
         "decl": {
           "start": {
             "line": 17,
-            "column": 30
+            "column": 37
           },
           "end": {
             "line": 17,
-            "column": 31
+            "column": 38
           }
         },
         "loc": {
           "start": {
             "line": 17,
-            "column": 43
+            "column": 50
           },
           "end": {
             "line": 22,
@@ -422,7 +422,7 @@
       "sources": [
         "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/types.ts"
       ],
-      "mappings": "AA2EO,WAAK,QAAL,kBAAKA,WAAL;AACL,EAAAA,OAAA,WAAQ;AACR,EAAAA,OAAA,WAAQ;AACR,EAAAA,OAAA,WAAQ;AACR,EAAAA,OAAA,YAAS;AACT,EAAAA,OAAA,SAAM;AACN,EAAAA,OAAA,UAAO;AACP,EAAAA,OAAA,YAAS;AAPC,SAAAA;AAAA,GAAA;AAUL,WAAK,WAAL,kBAAKC,cAAL;AACL,EAAAA,UAAA,sBAAmB;AACnB,EAAAA,UAAA,wBAAqB;AACrB,EAAAA,UAAA,oBAAiB;AAHP,SAAAA;AAAA,GAAA;AAMZ,IAAK,SAAL,kBAAKC,YAAL;AACE,EAAAA,QAAA,UAAO;AACP,EAAAA,QAAA,WAAQ;AACR,EAAAA,QAAA,UAAO;AAHJ,SAAAA;AAAA,GAAA;AAML,eAAe;",
+      "mappings": "AA2EO,WAAK,QAAL,kBAAKA,WAAL;AACL,EAAAA,OAAA,WAAQ;AACR,EAAAA,OAAA,WAAQ;AACR,EAAAA,OAAA,WAAQ;AACR,EAAAA,OAAA,YAAS;AACT,EAAAA,OAAA,SAAM;AACN,EAAAA,OAAA,UAAO;AACP,EAAAA,OAAA,YAAS;AAPC,SAAAA;AAAA,GAAA;AAUL,WAAK,WAAL,kBAAKC,cAAL;AACL,EAAAA,UAAA,sBAAmB;AACnB,EAAAA,UAAA,wBAAqB;AACrB,EAAAA,UAAA,oBAAiB;AAHP,SAAAA;AAAA,GAAA;AAML,WAAK,SAAL,kBAAKC,YAAL;AACL,EAAAA,QAAA,UAAO;AACP,EAAAA,QAAA,WAAQ;AACR,EAAAA,QAAA,UAAO;AAHG,SAAAA;AAAA,GAAA;",
       "names": [
         "Color",
         "Category",
@@ -430,7 +430,7 @@
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "4338791707c2c31c99a4bdea011b37e3f89c5e65"
+    "hash": "12048579db5876da9fbe22e3f467da87b8e25bfb"
   },
   "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/header/header.tsx": {
     "path": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/header/header.tsx",
@@ -687,121 +687,121 @@
       },
       "25": {
         "start": {
-          "line": 108,
+          "line": 107,
           "column": 0
         },
         "end": {
-          "line": 108,
+          "line": 107,
           "column": 27
         }
       },
       "26": {
         "start": {
-          "line": 109,
+          "line": 108,
           "column": 0
         },
         "end": {
-          "line": 125,
+          "line": 124,
           "column": 1
         }
       },
       "27": {
         "start": {
-          "line": 110,
+          "line": 109,
           "column": 2
         },
         "end": {
-          "line": 110,
+          "line": 109,
           "column": 39
         }
       },
       "28": {
         "start": {
-          "line": 111,
+          "line": 110,
           "column": 2
         },
         "end": {
-          "line": 111,
+          "line": 110,
           "column": 39
         }
       },
       "29": {
         "start": {
-          "line": 112,
+          "line": 111,
           "column": 2
         },
         "end": {
-          "line": 124,
+          "line": 123,
           "column": 5
         }
       },
       "30": {
         "start": {
-          "line": 116,
+          "line": 115,
           "column": 4
         },
         "end": {
-          "line": 116,
+          "line": 115,
           "column": 161
         }
       },
       "31": {
         "start": {
-          "line": 117,
+          "line": 116,
           "column": 4
         },
         "end": {
-          "line": 123,
+          "line": 122,
           "column": 7
         }
       },
       "32": {
         "start": {
-          "line": 118,
+          "line": 117,
           "column": 6
         },
         "end": {
-          "line": 119,
+          "line": 118,
           "column": 15
         }
       },
       "33": {
         "start": {
-          "line": 119,
+          "line": 118,
           "column": 8
         },
         "end": {
-          "line": 119,
+          "line": 118,
           "column": 15
         }
       },
       "34": {
         "start": {
-          "line": 120,
+          "line": 119,
           "column": 32
         },
         "end": {
-          "line": 120,
+          "line": 119,
           "column": 115
         }
       },
       "35": {
         "start": {
-          "line": 121,
+          "line": 120,
           "column": 6
         },
         "end": {
-          "line": 122,
+          "line": 121,
           "column": 54
         }
       },
       "36": {
         "start": {
-          "line": 122,
+          "line": 121,
           "column": 8
         },
         "end": {
-          "line": 122,
+          "line": 121,
           "column": 54
         }
       }
@@ -836,17 +836,17 @@
         "decl": {
           "start": {
             "line": 20,
-            "column": 9
+            "column": 16
           },
           "end": {
             "line": 20,
-            "column": 15
+            "column": 22
           }
         },
         "loc": {
           "start": {
             "line": 20,
-            "column": 18
+            "column": 25
           },
           "end": {
             "line": 101,
@@ -907,49 +907,49 @@
         "name": "(anonymous_4)",
         "decl": {
           "start": {
-            "line": 115,
+            "line": 114,
             "column": 9
           },
           "end": {
-            "line": 115,
+            "line": 114,
             "column": 10
           }
         },
         "loc": {
           "start": {
-            "line": 115,
+            "line": 114,
             "column": 29
           },
           "end": {
-            "line": 124,
+            "line": 123,
             "column": 3
           }
         },
-        "line": 115
+        "line": 114
       },
       "5": {
         "name": "(anonymous_5)",
         "decl": {
           "start": {
-            "line": 117,
+            "line": 116,
             "column": 27
           },
           "end": {
-            "line": 117,
+            "line": 116,
             "column": 28
           }
         },
         "loc": {
           "start": {
-            "line": 117,
+            "line": 116,
             "column": 44
           },
           "end": {
-            "line": 123,
+            "line": 122,
             "column": 5
           }
         },
-        "line": 117
+        "line": 116
       }
     },
     "branchMap": {
@@ -1072,11 +1072,11 @@
       "3": {
         "loc": {
           "start": {
-            "line": 109,
+            "line": 108,
             "column": 0
           },
           "end": {
-            "line": 125,
+            "line": 124,
             "column": 1
           }
         },
@@ -1084,11 +1084,11 @@
         "locations": [
           {
             "start": {
-              "line": 109,
+              "line": 108,
               "column": 0
             },
             "end": {
-              "line": 125,
+              "line": 124,
               "column": 1
             }
           },
@@ -1097,16 +1097,16 @@
             "end": {}
           }
         ],
-        "line": 109
+        "line": 108
       },
       "4": {
         "loc": {
           "start": {
-            "line": 118,
+            "line": 117,
             "column": 6
           },
           "end": {
-            "line": 119,
+            "line": 118,
             "column": 15
           }
         },
@@ -1114,11 +1114,11 @@
         "locations": [
           {
             "start": {
-              "line": 118,
+              "line": 117,
               "column": 6
             },
             "end": {
-              "line": 119,
+              "line": 118,
               "column": 15
             }
           },
@@ -1127,16 +1127,16 @@
             "end": {}
           }
         ],
-        "line": 118
+        "line": 117
       },
       "5": {
         "loc": {
           "start": {
-            "line": 121,
+            "line": 120,
             "column": 6
           },
           "end": {
-            "line": 122,
+            "line": 121,
             "column": 54
           }
         },
@@ -1144,11 +1144,11 @@
         "locations": [
           {
             "start": {
-              "line": 121,
+              "line": 120,
               "column": 6
             },
             "end": {
-              "line": 122,
+              "line": 121,
               "column": 54
             }
           },
@@ -1157,7 +1157,7 @@
             "end": {}
           }
         ],
-        "line": 121
+        "line": 120
       }
     },
     "s": {
@@ -1237,7 +1237,7 @@
     },
     "inputSourceMap": {
       "version": 3,
-      "mappings": "AAoCc;;;;;;;;;;;;;;;;AApCd,SAASA,UAAUC,iBAAiB;AACpC,SAASC,SAASC,mBAAmB;AACrC,OAAOC,YAAY;AAMnB,SAASC,SAAS;AAAAC;AAChB,QAAM,CAACC,WAAWC,YAAY,IAAIR,SAAyB;AAAA,IACzDO,WAAW;AAAA,EACb,CAAC;AAED,QAAME,WAAWN,YAAW;AAC5BF,YAAU,MAAM;AACd,YAAQQ,SAASC,UAAQ;AAAA,MACvB,KAAKN,OAAOO;AACVH,qBAAa;AAAA,UAAED,WAAW;AAAA,QAAO,CAAC;AAClC;AAAA,MACF,KAAKH,OAAOQ;AACVJ,qBAAa;AAAA,UAAED,WAAW;AAAA,QAAO,CAAC;AAClC;AAAA,MACF,KAAKH,OAAOS;AACVL,qBAAa;AAAA,UAAED,WAAW;AAAA,QAAW,CAAC;AACtC;AAAA,MACF;AACEC,qBAAa;AAAA,UAAED,WAAW;AAAA,QAAG,CAAC;AAAA,IAAE;AAAA,EAEtC,GAAG,CAACE,QAAQ,CAAC;AAEb,SACE,uBAAC,YAAO,WAAU,UAChB,iCAAC,SAAI,WAAU,6BACb;AAAA,2BAAC,SAAI,WAAU,eACb,iCAAC,QAAG,WAAU,gBACZ;AAAA,6BAAC,QAAG,WAAU,gBACZ,iCAAC,WAAQ,IAAIL,OAAOO,MAAM,oBAA1B;AAAA;AAAA;AAAA;AAAA,aAA8B,KADhC;AAAA;AAAA;AAAA;AAAA,aAEA;AAAA,MACA,uBAAC,QAAG,WAAU,gBACZ,iCAAC,WAAQ,IAAIP,OAAOQ,MAAM,oBAA1B;AAAA;AAAA;AAAA;AAAA,aAA8B,KADhC;AAAA;AAAA;AAAA;AAAA,aAEA;AAAA,MACA,uBAAC,QAAG,WAAU,gBACZ,iCAAC,WAAQ,IAAIR,OAAOS,OAAO,wBAA3B;AAAA;AAAA;AAAA;AAAA,aAAmC,KADrC;AAAA;AAAA;AAAA;AAAA,aAEA;AAAA,SATF;AAAA;AAAA;AAAA;AAAA,WAUA,KAXF;AAAA;AAAA;AAAA;AAAA,WAYA;AAAA,IACA,uBAAC,SAAI,eAAY,cAAa,WAAU,iBACrCN,oBAAUA,aADb;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,OAhBF;AAAA;AAAA;AAAA;AAAA,SAiBA,KAlBF;AAAA;AAAA;AAAA;AAAA,SAmBA;AAEJ;AAACD,GA5CQD,QAAM;AAAA,UAKIF,WAAW;AAAA;AAAAW,KALrBT;AA8CT,eAAeA;AAAO;AAAAU",
+      "mappings": "AAoCc;;;;;;;;;;;;;;;;AApCd,SAASA,UAAUC,iBAAiB;AACpC,SAASC,SAASC,mBAAmB;AACrC,SAASC,cAAc;AAMhB,gBAASC,SAAS;AAAAC;AACvB,QAAM,CAACC,WAAWC,YAAY,IAAIR,SAAyB;AAAA,IACzDO,WAAW;AAAA,EACb,CAAC;AAED,QAAME,WAAWN,YAAW;AAC5BF,YAAU,MAAM;AACd,YAAQQ,SAASC,UAAQ;AAAA,MACvB,KAAKN,OAAOO;AACVH,qBAAa;AAAA,UAAED,WAAW;AAAA,QAAO,CAAC;AAClC;AAAA,MACF,KAAKH,OAAOQ;AACVJ,qBAAa;AAAA,UAAED,WAAW;AAAA,QAAO,CAAC;AAClC;AAAA,MACF,KAAKH,OAAOS;AACVL,qBAAa;AAAA,UAAED,WAAW;AAAA,QAAW,CAAC;AACtC;AAAA,MACF;AACEC,qBAAa;AAAA,UAAED,WAAW;AAAA,QAAG,CAAC;AAAA,IAAE;AAAA,EAEtC,GAAG,CAACE,QAAQ,CAAC;AAEb,SACE,uBAAC,YAAO,WAAU,UAChB,iCAAC,SAAI,WAAU,6BACb;AAAA,2BAAC,SAAI,WAAU,eACb,iCAAC,QAAG,WAAU,gBACZ;AAAA,6BAAC,QAAG,WAAU,gBACZ,iCAAC,WAAQ,IAAIL,OAAOO,MAAM,oBAA1B;AAAA;AAAA;AAAA;AAAA,aAA8B,KADhC;AAAA;AAAA;AAAA;AAAA,aAEA;AAAA,MACA,uBAAC,QAAG,WAAU,gBACZ,iCAAC,WAAQ,IAAIP,OAAOQ,MAAM,oBAA1B;AAAA;AAAA;AAAA;AAAA,aAA8B,KADhC;AAAA;AAAA;AAAA;AAAA,aAEA;AAAA,MACA,uBAAC,QAAG,WAAU,gBACZ,iCAAC,WAAQ,IAAIR,OAAOS,OAAO,wBAA3B;AAAA;AAAA;AAAA;AAAA,aAAmC,KADrC;AAAA;AAAA;AAAA;AAAA,aAEA;AAAA,SATF;AAAA;AAAA;AAAA;AAAA,WAUA,KAXF;AAAA;AAAA;AAAA;AAAA,WAYA;AAAA,IACA,uBAAC,SAAI,eAAY,cAAa,WAAU,iBACrCN,oBAAUA,aADb;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,OAhBF;AAAA;AAAA;AAAA;AAAA,SAiBA,KAlBF;AAAA;AAAA;AAAA;AAAA,SAmBA;AAEJ;AAEAD,GA9CgBD,QAAM;AAAA,UAKHF,WAAW;AAAA;AAAAW,KALdT;AAAM;AAAAU",
       "names": [
         "useState",
         "useEffect",
@@ -1262,7 +1262,7 @@
       "file": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/header/header.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "a4a11bb9dc33cba75a76a0f1dc430e455b9f2778"
+    "hash": "f6db10b4cd6bb35946e33d669629ef45995fd788"
   },
   "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/footer/footer.tsx": {
     "path": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/footer/footer.tsx",
@@ -1369,121 +1369,121 @@
       },
       "10": {
         "start": {
-          "line": 50,
+          "line": 49,
           "column": 0
         },
         "end": {
-          "line": 50,
+          "line": 49,
           "column": 27
         }
       },
       "11": {
         "start": {
-          "line": 51,
+          "line": 50,
           "column": 0
         },
         "end": {
-          "line": 67,
+          "line": 66,
           "column": 1
         }
       },
       "12": {
         "start": {
-          "line": 52,
+          "line": 51,
           "column": 2
         },
         "end": {
-          "line": 52,
+          "line": 51,
           "column": 39
         }
       },
       "13": {
         "start": {
-          "line": 53,
+          "line": 52,
           "column": 2
         },
         "end": {
-          "line": 53,
+          "line": 52,
           "column": 39
         }
       },
       "14": {
         "start": {
-          "line": 54,
+          "line": 53,
           "column": 2
         },
         "end": {
-          "line": 66,
+          "line": 65,
           "column": 5
         }
       },
       "15": {
         "start": {
-          "line": 58,
+          "line": 57,
           "column": 4
         },
         "end": {
-          "line": 58,
+          "line": 57,
           "column": 161
         }
       },
       "16": {
         "start": {
-          "line": 59,
+          "line": 58,
           "column": 4
         },
         "end": {
-          "line": 65,
+          "line": 64,
           "column": 7
         }
       },
       "17": {
         "start": {
-          "line": 60,
+          "line": 59,
           "column": 6
         },
         "end": {
-          "line": 61,
+          "line": 60,
           "column": 15
         }
       },
       "18": {
         "start": {
-          "line": 61,
+          "line": 60,
           "column": 8
         },
         "end": {
-          "line": 61,
+          "line": 60,
           "column": 15
         }
       },
       "19": {
         "start": {
-          "line": 62,
+          "line": 61,
           "column": 32
         },
         "end": {
-          "line": 62,
+          "line": 61,
           "column": 115
         }
       },
       "20": {
         "start": {
-          "line": 63,
+          "line": 62,
           "column": 6
         },
         "end": {
-          "line": 64,
+          "line": 63,
           "column": 54
         }
       },
       "21": {
         "start": {
-          "line": 64,
+          "line": 63,
           "column": 8
         },
         "end": {
-          "line": 64,
+          "line": 63,
           "column": 54
         }
       }
@@ -1518,17 +1518,17 @@
         "decl": {
           "start": {
             "line": 16,
-            "column": 9
+            "column": 16
           },
           "end": {
             "line": 16,
-            "column": 15
+            "column": 22
           }
         },
         "loc": {
           "start": {
             "line": 16,
-            "column": 18
+            "column": 25
           },
           "end": {
             "line": 46,
@@ -1541,49 +1541,49 @@
         "name": "(anonymous_2)",
         "decl": {
           "start": {
-            "line": 57,
+            "line": 56,
             "column": 9
           },
           "end": {
-            "line": 57,
+            "line": 56,
             "column": 10
           }
         },
         "loc": {
           "start": {
-            "line": 57,
+            "line": 56,
             "column": 29
           },
           "end": {
-            "line": 66,
+            "line": 65,
             "column": 3
           }
         },
-        "line": 57
+        "line": 56
       },
       "3": {
         "name": "(anonymous_3)",
         "decl": {
           "start": {
-            "line": 59,
+            "line": 58,
             "column": 27
           },
           "end": {
-            "line": 59,
+            "line": 58,
             "column": 28
           }
         },
         "loc": {
           "start": {
-            "line": 59,
+            "line": 58,
             "column": 44
           },
           "end": {
-            "line": 65,
+            "line": 64,
             "column": 5
           }
         },
-        "line": 59
+        "line": 58
       }
     },
     "branchMap": {
@@ -1650,11 +1650,11 @@
       "2": {
         "loc": {
           "start": {
-            "line": 51,
+            "line": 50,
             "column": 0
           },
           "end": {
-            "line": 67,
+            "line": 66,
             "column": 1
           }
         },
@@ -1662,11 +1662,11 @@
         "locations": [
           {
             "start": {
-              "line": 51,
+              "line": 50,
               "column": 0
             },
             "end": {
-              "line": 67,
+              "line": 66,
               "column": 1
             }
           },
@@ -1675,16 +1675,16 @@
             "end": {}
           }
         ],
-        "line": 51
+        "line": 50
       },
       "3": {
         "loc": {
           "start": {
-            "line": 60,
+            "line": 59,
             "column": 6
           },
           "end": {
-            "line": 61,
+            "line": 60,
             "column": 15
           }
         },
@@ -1692,11 +1692,11 @@
         "locations": [
           {
             "start": {
-              "line": 60,
+              "line": 59,
               "column": 6
             },
             "end": {
-              "line": 61,
+              "line": 60,
               "column": 15
             }
           },
@@ -1705,16 +1705,16 @@
             "end": {}
           }
         ],
-        "line": 60
+        "line": 59
       },
       "4": {
         "loc": {
           "start": {
-            "line": 63,
+            "line": 62,
             "column": 6
           },
           "end": {
-            "line": 64,
+            "line": 63,
             "column": 54
           }
         },
@@ -1722,11 +1722,11 @@
         "locations": [
           {
             "start": {
-              "line": 63,
+              "line": 62,
               "column": 6
             },
             "end": {
-              "line": 64,
+              "line": 63,
               "column": 54
             }
           },
@@ -1735,7 +1735,7 @@
             "end": {}
           }
         ],
-        "line": 63
+        "line": 62
       }
     },
     "s": {
@@ -1792,11 +1792,10 @@
     },
     "inputSourceMap": {
       "version": 3,
-      "mappings": "AAMQ;AANR,OAAOA,oBAAkB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAEzB,SAASC,SAAS;AAChB,SACE,uBAAC,YAAO,WAAU,UAChB,iCAAC,SAAI,WAAU,6BACb;AAAA,2BAAC,OACC,WAAU,eACV,MAAK,uCACL,QAAO,UACP,KAAI,cAAY,gCAJlB;AAAA;AAAA;AAAA;AAAA,WAOA;AAAA,IACA,uBAAC,OACC,WAAU,uBACV,MAAK,4BACL,QAAO,UACP,KAAI,cAEJ,iCAAC,OAAE,WAAU,wBAAb;AAAA;AAAA;AAAA;AAAA,WAAkC,KANpC;AAAA;AAAA;AAAA;AAAA,WAOA;AAAA,IACA,uBAAC,UAAK,WAAU,gBAAe,oBAA/B;AAAA;AAAA;AAAA;AAAA,WAAmC;AAAA,OAjBrC;AAAA;AAAA;AAAA;AAAA,SAkBA,KAnBF;AAAA;AAAA;AAAA;AAAA,SAoBA;AAEJ;AAACC,KAxBQD;AA0BT,eAAeA;AAAO;AAAAE",
+      "mappings": "AAIQ;AAJR,OAAO,oBAAkB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AACvB,SACE,uBAAC,YAAO,WAAU,UAChB,iCAAC,SAAI,WAAU,6BACb;AAAA,2BAAC,OACC,WAAU,eACV,MAAK,uCACL,QAAO,UACP,KAAI,cAAY,gCAJlB;AAAA;AAAA;AAAA;AAAA,WAOA;AAAA,IACA,uBAAC,OACC,WAAU,uBACV,MAAK,4BACL,QAAO,UACP,KAAI,cAEJ,iCAAC,OAAE,WAAU,wBAAb;AAAA;AAAA;AAAA;AAAA,WAAkC,KANpC;AAAA;AAAA;AAAA;AAAA,WAOA;AAAA,IACA,uBAAC,UAAK,WAAU,gBAAe,oBAA/B;AAAA;AAAA;AAAA;AAAA,WAAmC;AAAA,OAjBrC;AAAA;AAAA;AAAA;AAAA,SAkBA,KAnBF;AAAA;AAAA;AAAA;AAAA,SAoBA;AAEJ;AAACA,KAxBeC;AAAM;AAAAC",
       "names": [
-        "React",
-        "Footer",
         "_c",
+        "Footer",
         "$RefreshReg$"
       ],
       "sources": [
@@ -1805,7 +1804,7 @@
       "file": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/footer/footer.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "100a917f5af263cbd1f1922b6f3e6c876ce9a1bf"
+    "hash": "34f0feeb91dc90c2828d2ec2f81a694f1d50821e"
   },
   "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/pages/aboutUs.tsx": {
     "path": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/pages/aboutUs.tsx",
@@ -2335,11 +2334,10 @@
     },
     "inputSourceMap": {
       "version": 3,
-      "mappings": "AAKM;AALN,OAAOA,oBAAkB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAElB,gBAASC,UAAU;AACxB,SACE,uBAAC,SAAI,WAAU,mBACb;AAAA,2BAAC,OAAE,WAAU,qCAAmC,23BAAhD;AAAA;AAAA;AAAA;AAAA,WAWA;AAAA,IACA,uBAAC,SAAI,WAAU,0BAAf;AAAA;AAAA;AAAA;AAAA,WAAsC;AAAA,OAbxC;AAAA;AAAA;AAAA;AAAA,SAcA;AAEJ;AAACC,KAlBeD;AAAO;AAAAE",
+      "mappings": "AAGM;AAHN,OAAO,oBAAmB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AACxB,SACE,uBAAC,SAAI,WAAU,mBACb;AAAA,2BAAC,OAAE,WAAU,qCAAmC,23BAAhD;AAAA;AAAA;AAAA;AAAA,WAWA;AAAA,IACA,uBAAC,SAAI,WAAU,0BAAf;AAAA;AAAA;AAAA;AAAA,WAAsC;AAAA,OAbxC;AAAA;AAAA;AAAA;AAAA,SAcA;AAEJ;AAACA,KAlBeC;AAAO;AAAAC",
       "names": [
-        "React",
-        "AboutUs",
         "_c",
+        "AboutUs",
         "$RefreshReg$"
       ],
       "sources": [
@@ -2348,7 +2346,7 @@
       "file": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/pages/aboutUs.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "e1c80a457f4dbea17f9b432912ea09f660e09e95"
+    "hash": "aadd444ddd39a7643aab75ac98b535a4e21211a9"
   },
   "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/reducers/imagesSlice.tsx": {
     "path": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/reducers/imagesSlice.tsx",
@@ -2458,13 +2456,13 @@
     "s": {
       "0": 7,
       "1": 7,
-      "2": 11,
-      "3": 11,
+      "2": 10,
+      "3": 10,
       "4": 7
     },
     "f": {
-      "0": 11,
-      "1": 11
+      "0": 10,
+      "1": 10
     },
     "b": {},
     "inputSourceMap": {
@@ -3017,10 +3015,10 @@
       "2": 7,
       "3": 3,
       "4": 5,
-      "5": 5,
+      "5": 4,
       "6": 0,
-      "7": 5,
-      "8": 5,
+      "7": 4,
+      "8": 4,
       "9": 4,
       "10": 4,
       "11": 0,
@@ -3031,15 +3029,15 @@
       "0": 7,
       "1": 3,
       "2": 5,
-      "3": 5,
-      "4": 5,
+      "3": 4,
+      "4": 4,
       "5": 4,
       "6": 4
     },
     "b": {
       "0": [
         0,
-        5
+        4
       ],
       "1": [
         0,
@@ -3453,121 +3451,121 @@
       },
       "36": {
         "start": {
-          "line": 86,
+          "line": 85,
           "column": 0
         },
         "end": {
-          "line": 86,
+          "line": 85,
           "column": 32
         }
       },
       "37": {
         "start": {
-          "line": 87,
+          "line": 86,
           "column": 0
         },
         "end": {
-          "line": 103,
+          "line": 102,
           "column": 1
         }
       },
       "38": {
         "start": {
-          "line": 88,
+          "line": 87,
           "column": 2
         },
         "end": {
-          "line": 88,
+          "line": 87,
           "column": 39
         }
       },
       "39": {
         "start": {
-          "line": 89,
+          "line": 88,
           "column": 2
         },
         "end": {
-          "line": 89,
+          "line": 88,
           "column": 39
         }
       },
       "40": {
         "start": {
-          "line": 90,
+          "line": 89,
           "column": 2
         },
         "end": {
-          "line": 102,
+          "line": 101,
           "column": 5
         }
       },
       "41": {
         "start": {
-          "line": 94,
+          "line": 93,
           "column": 4
         },
         "end": {
-          "line": 94,
+          "line": 93,
           "column": 171
         }
       },
       "42": {
         "start": {
-          "line": 95,
+          "line": 94,
           "column": 4
         },
         "end": {
-          "line": 101,
+          "line": 100,
           "column": 7
         }
       },
       "43": {
         "start": {
-          "line": 96,
+          "line": 95,
           "column": 6
         },
         "end": {
-          "line": 97,
+          "line": 96,
           "column": 15
         }
       },
       "44": {
         "start": {
-          "line": 97,
+          "line": 96,
           "column": 8
         },
         "end": {
-          "line": 97,
+          "line": 96,
           "column": 15
         }
       },
       "45": {
         "start": {
-          "line": 98,
+          "line": 97,
           "column": 32
         },
         "end": {
-          "line": 98,
+          "line": 97,
           "column": 115
         }
       },
       "46": {
         "start": {
-          "line": 99,
+          "line": 98,
           "column": 6
         },
         "end": {
-          "line": 100,
+          "line": 99,
           "column": 54
         }
       },
       "47": {
         "start": {
-          "line": 100,
+          "line": 99,
           "column": 8
         },
         "end": {
-          "line": 100,
+          "line": 99,
           "column": 54
         }
       }
@@ -3602,17 +3600,17 @@
         "decl": {
           "start": {
             "line": 23,
-            "column": 9
+            "column": 16
           },
           "end": {
             "line": 23,
-            "column": 20
+            "column": 27
           }
         },
         "loc": {
           "start": {
             "line": 23,
-            "column": 23
+            "column": 30
           },
           "end": {
             "line": 79,
@@ -3817,49 +3815,49 @@
         "name": "(anonymous_10)",
         "decl": {
           "start": {
-            "line": 93,
+            "line": 92,
             "column": 9
           },
           "end": {
-            "line": 93,
+            "line": 92,
             "column": 10
           }
         },
         "loc": {
           "start": {
-            "line": 93,
+            "line": 92,
             "column": 29
           },
           "end": {
-            "line": 102,
+            "line": 101,
             "column": 3
           }
         },
-        "line": 93
+        "line": 92
       },
       "11": {
         "name": "(anonymous_11)",
         "decl": {
           "start": {
-            "line": 95,
+            "line": 94,
             "column": 27
           },
           "end": {
-            "line": 95,
+            "line": 94,
             "column": 28
           }
         },
         "loc": {
           "start": {
-            "line": 95,
+            "line": 94,
             "column": 44
           },
           "end": {
-            "line": 101,
+            "line": 100,
             "column": 5
           }
         },
-        "line": 95
+        "line": 94
       }
     },
     "branchMap": {
@@ -4074,11 +4072,11 @@
       "7": {
         "loc": {
           "start": {
-            "line": 87,
+            "line": 86,
             "column": 0
           },
           "end": {
-            "line": 103,
+            "line": 102,
             "column": 1
           }
         },
@@ -4086,11 +4084,11 @@
         "locations": [
           {
             "start": {
-              "line": 87,
+              "line": 86,
               "column": 0
             },
             "end": {
-              "line": 103,
+              "line": 102,
               "column": 1
             }
           },
@@ -4099,16 +4097,16 @@
             "end": {}
           }
         ],
-        "line": 87
+        "line": 86
       },
       "8": {
         "loc": {
           "start": {
-            "line": 96,
+            "line": 95,
             "column": 6
           },
           "end": {
-            "line": 97,
+            "line": 96,
             "column": 15
           }
         },
@@ -4116,11 +4114,11 @@
         "locations": [
           {
             "start": {
-              "line": 96,
+              "line": 95,
               "column": 6
             },
             "end": {
-              "line": 97,
+              "line": 96,
               "column": 15
             }
           },
@@ -4129,16 +4127,16 @@
             "end": {}
           }
         ],
-        "line": 96
+        "line": 95
       },
       "9": {
         "loc": {
           "start": {
-            "line": 99,
+            "line": 98,
             "column": 6
           },
           "end": {
-            "line": 100,
+            "line": 99,
             "column": 54
           }
         },
@@ -4146,11 +4144,11 @@
         "locations": [
           {
             "start": {
-              "line": 99,
+              "line": 98,
               "column": 6
             },
             "end": {
-              "line": 100,
+              "line": 99,
               "column": 54
             }
           },
@@ -4159,7 +4157,7 @@
             "end": {}
           }
         ],
-        "line": 99
+        "line": 98
       }
     },
     "s": {
@@ -4172,29 +4170,29 @@
       "6": 7,
       "7": 7,
       "8": 7,
-      "9": 108,
-      "10": 108,
-      "11": 108,
-      "12": 108,
-      "13": 169,
-      "14": 108,
+      "9": 104,
+      "10": 104,
+      "11": 104,
+      "12": 104,
+      "13": 162,
+      "14": 104,
       "15": 10,
       "16": 2,
-      "17": 108,
-      "18": 108,
+      "17": 104,
+      "18": 104,
       "19": 2,
       "20": 2,
       "21": 2,
-      "22": 108,
+      "22": 104,
       "23": 18,
       "24": 0,
-      "25": 108,
+      "25": 104,
       "26": 2,
       "27": 2,
       "28": 2,
       "29": 2,
       "30": 2,
-      "31": 108,
+      "31": 104,
       "32": 18,
       "33": 7,
       "34": 3,
@@ -4214,8 +4212,8 @@
     },
     "f": {
       "0": 7,
-      "1": 108,
-      "2": 169,
+      "1": 104,
+      "2": 162,
       "3": 10,
       "4": 2,
       "5": 18,
@@ -4240,10 +4238,10 @@
         8
       ],
       "3": [
-        28
+        34
       ],
       "4": [
-        48
+        46
       ],
       "5": [
         0,
@@ -4268,7 +4266,7 @@
     },
     "inputSourceMap": {
       "version": 3,
-      "mappings": "AA+CM;;;;;;;;;;;;;;;;AA/CN,SAAgBA,UAAgCC,iBAAiB;AACjE,SAASC,mBAAmB;AAC5B,SAASC,eAAeC,uBAAuB;AAC/C,SAASC,eAAeC,uBAAuB;AAC/C,SAASC,mBAAmB;AAE5B,SAASC,wBAAwBC,6BAA6B;AAE9D,SAASC,cAAc;AAAAC;AACrB,QAAM,CAACC,YAAYC,aAAa,IAAIb,SAAS,EAAE;AAC/C,QAAMc,WAAWZ,YAAW;AAC5B,QAAMa,qBAAqBR,YAAY,CAACS,UAA6BA,MAAMC,OAAOC,WAAW;AAE7FjB,YAAU,MAAM;AACd,QAAIc,mBAAmBI,WAAW,GAAG;AACnCN,oBAAcE,kBAAkB;AAAA,IAClC;AAAA,EACF,GAAG,CAACA,kBAAkB,CAAC;AAEvB,QAAM;AAAA,IAAEK,MAAMC,iBAAiB;AAAA,EAAG,IAAIb,uBAAuBO,kBAAkB;AAC/E,QAAM;AAAA,IAAEK,MAAME,gBAAgB;AAAA,EAAG,IAAIb,sBAAqB;AAE1D,iBAAeQ,SAAS;AACtBH,aAAST,cAAcO,UAAU,CAAC;AAClCE,aAASV,gBAAe,CAAE;AAC1BU,aAASX,cAAckB,cAAc,CAAC;AAAA,EACxC;AAEA,QAAME,oBAA6DC,OAAM;AACvE,QAAIA,EAAEC,QAAQ,WAAWb,WAAWO,WAAW,GAAG;AAChDF,aAAM;AAAA,IACR;AAAA,EACF;AAEA,QAAMS,qBAAqBA,MAAM;AAC/BT,WAAM;AAAA,EACR;AAEA,iBAAeU,mBAAmB;AAChCd,kBAAc,EAAE;AAChBC,aAASR,gBAAe,CAAE;AAC1BQ,aAASV,gBAAe,CAAE;AAC1BU,aAASX,cAAcmB,aAAa,CAAC;AAAA,EACvC;AAEA,SACE,uBAAC,SAAI,WAAU,gCACb;AAAA,2BAAC,WACC,WAAU,sBACV,MAAK,QACL,WAAW,IACX,aAAY,UACZ,OAAOV,YACP,UAAWY,OAAMX,cAAcW,EAAEI,OAAOC,KAAK,GAC7C,WAAWN,qBAPb;AAAA;AAAA;AAAA;AAAA,WAO+B;AAAA,IAE/B,uBAAC,SACC,eAAY,gBACZ,WAAU,sBACV,SAASI,oBAHX;AAAA;AAAA;AAAA;AAAA,WAIC;AAAA,IACD,uBAAC,YAAO,SAASD,oBAAoB,UAAU,CAACd,YAAY,WAAU,oBAAkB,sBAAxF;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,OAjBF;AAAA;AAAA;AAAA;AAAA,SAkBA;AAEJ;AAACD,GA1DQD,aAAW;AAAA,UAEDR,aACUK,aAQWC,wBACDC,qBAAqB;AAAA;AAAAqB,KAZnDpB;AA4DT,eAAeA;AAAY;AAAAqB",
+      "mappings": "AA+CM;;;;;;;;;;;;;;;;AA/CN,SAASA,UAAgCC,iBAAiB;AAC1D,SAASC,mBAAmB;AAC5B,SAASC,eAAeC,uBAAuB;AAC/C,SAASC,eAAeC,uBAAuB;AAC/C,SAASC,mBAAmB;AAE5B,SAASC,wBAAwBC,6BAA6B;AAEvD,gBAASC,cAAc;AAAAC;AAC5B,QAAM,CAACC,YAAYC,aAAa,IAAIb,SAAS,EAAE;AAC/C,QAAMc,WAAWZ,YAAW;AAC5B,QAAMa,qBAAqBR,YAAY,CAACS,UAA6BA,MAAMC,OAAOC,WAAW;AAE7FjB,YAAU,MAAM;AACd,QAAIc,mBAAmBI,WAAW,GAAG;AACnCN,oBAAcE,kBAAkB;AAAA,IAClC;AAAA,EACF,GAAG,CAACA,kBAAkB,CAAC;AAEvB,QAAM;AAAA,IAAEK,MAAMC,iBAAiB;AAAA,EAAG,IAAIb,uBAAuBO,kBAAkB;AAC/E,QAAM;AAAA,IAAEK,MAAME,gBAAgB;AAAA,EAAG,IAAIb,sBAAqB;AAE1D,iBAAeQ,SAAS;AACtBH,aAAST,cAAcO,UAAU,CAAC;AAClCE,aAASV,gBAAe,CAAE;AAC1BU,aAASX,cAAckB,cAAc,CAAC;AAAA,EACxC;AAEA,QAAME,oBAA6DC,OAAM;AACvE,QAAIA,EAAEC,QAAQ,WAAWb,WAAWO,WAAW,GAAG;AAChDF,aAAM;AAAA,IACR;AAAA,EACF;AAEA,QAAMS,qBAAqBA,MAAM;AAC/BT,WAAM;AAAA,EACR;AAEA,iBAAeU,mBAAmB;AAChCd,kBAAc,EAAE;AAChBC,aAASR,gBAAe,CAAE;AAC1BQ,aAASV,gBAAe,CAAE;AAC1BU,aAASX,cAAcmB,aAAa,CAAC;AAAA,EACvC;AAEA,SACE,uBAAC,SAAI,WAAU,gCACb;AAAA,2BAAC,WACC,WAAU,sBACV,MAAK,QACL,WAAW,IACX,aAAY,UACZ,OAAOV,YACP,UAAWY,OAAMX,cAAcW,EAAEI,OAAOC,KAAK,GAC7C,WAAWN,qBAPb;AAAA;AAAA;AAAA;AAAA,WAO+B;AAAA,IAE/B,uBAAC,SACC,eAAY,gBACZ,WAAU,sBACV,SAASI,oBAHX;AAAA;AAAA;AAAA;AAAA,WAIC;AAAA,IACD,uBAAC,YAAO,SAASD,oBAAoB,UAAU,CAACd,YAAY,WAAU,oBAAkB,sBAAxF;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,OAjBF;AAAA;AAAA;AAAA;AAAA,SAkBA;AAEJ;AAEAD,GA5DgBD,aAAW;AAAA,UAERR,aACUK,aAQWC,wBACDC,qBAAqB;AAAA;AAAAqB,KAZ5CpB;AAAW;AAAAqB",
       "names": [
         "useState",
         "useEffect",
@@ -4309,7 +4307,7 @@
       "file": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/searchInput/searchInput.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "4155c10101cf018879a4630becb73fc6d8e6d2d4"
+    "hash": "716f5aced75d3a6fb770169897e59853c2f34a78"
   },
   "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/imagesMain/image.tsx": {
     "path": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/imagesMain/image.tsx",
@@ -4829,7 +4827,7 @@
       "6": 7,
       "7": 7,
       "8": 1,
-      "9": 300,
+      "9": 280,
       "10": 7,
       "11": 7,
       "12": 7,
@@ -4846,7 +4844,7 @@
     },
     "f": {
       "0": 7,
-      "1": 300,
+      "1": 280,
       "2": 1,
       "3": 6,
       "4": 0
@@ -4875,9 +4873,8 @@
     },
     "inputSourceMap": {
       "version": 3,
-      "mappings": "AAcM;AAdN,OAAOA,oBAAkB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAOlB,gBAASC,MAAM;AAAA,EAAEC;AAAAA,EAAMC;AAAAA,EAAiBC;AAAAA,EAAMC;AAAAA,EAAOC;AAAyB,GAAG;AACtF,WAASC,mBAAmB;AAC1BD,YAAO;AAAA,EACT;AAEA,SACE,uBAAC,SAAI,eAAY,SAAQ,WAAU,SAAQ,SAASC,kBAClD;AAAA,2BAAC,SAAI,WAAU,cAAa,KAAKH,MAAMI,SAAS,KAAKL,mBAArD;AAAA;AAAA;AAAA;AAAA,WAAqE;AAAA,IACrE,uBAAC,SAAKD,gBAAMO,QAAZ;AAAA;AAAA;AAAA;AAAA,WAAiB;AAAA,IACjB,uBAAC,SAAKJ;AAAAA;AAAAA,MAAM;AAAA,SAAZ;AAAA;AAAA;AAAA;AAAA,WAAa;AAAA,OAHf;AAAA;AAAA;AAAA;AAAA,SAIA;AAEJ;AAACK,KAZeT;AAAK;AAAAU",
+      "mappings": "AAaM;AAbN,2BAAoB;AAAkB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAM/B,gBAASA,MAAM;AAAA,EAAEC;AAAAA,EAAMC;AAAAA,EAAiBC;AAAAA,EAAMC;AAAAA,EAAOC;AAAyB,GAAG;AACtF,WAASC,mBAAmB;AAC1BD,YAAO;AAAA,EACT;AAEA,SACE,uBAAC,SAAI,eAAY,SAAQ,WAAU,SAAQ,SAASC,kBAClD;AAAA,2BAAC,SAAI,WAAU,cAAa,KAAKH,MAAMI,SAAS,KAAKL,mBAArD;AAAA;AAAA;AAAA;AAAA,WAAqE;AAAA,IACrE,uBAAC,SAAKD,gBAAMO,QAAZ;AAAA;AAAA;AAAA;AAAA,WAAiB;AAAA,IACjB,uBAAC,SAAKJ;AAAAA;AAAAA,MAAM;AAAA,SAAZ;AAAA;AAAA;AAAA;AAAA,WAAa;AAAA,OAHf;AAAA;AAAA;AAAA;AAAA,SAIA;AAEJ;AAACK,KAZeT;AAAK;AAAAU",
       "names": [
-        "React",
         "Image",
         "user",
         "alt_description",
@@ -4896,7 +4893,7 @@
       "file": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/imagesMain/image.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "9cb81d9121ca6a79faed23f7c74d89495b26475d"
+    "hash": "7ed8c4936a45170740ad75f489cb9d01e044e830"
   },
   "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/preloader/preloaderCircle.tsx": {
     "path": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/preloader/preloaderCircle.tsx",
@@ -5478,9 +5475,9 @@
       "6": 7,
       "7": 7,
       "8": 7,
-      "9": 74,
-      "10": 22,
-      "11": 52,
+      "9": 70,
+      "10": 20,
+      "11": 50,
       "12": 7,
       "13": 7,
       "14": 7,
@@ -5497,7 +5494,7 @@
     },
     "f": {
       "0": 7,
-      "1": 74,
+      "1": 70,
       "2": 6,
       "3": 0
     },
@@ -5511,12 +5508,12 @@
         7
       ],
       "2": [
-        22,
-        52
+        20,
+        50
       ],
       "3": [
-        74,
-        52
+        70,
+        50
       ],
       "4": [
         7,
@@ -6137,8 +6134,8 @@
       "5": 7,
       "6": 7,
       "7": 7,
-      "8": 68,
-      "9": 300,
+      "8": 64,
+      "9": 280,
       "10": 1,
       "11": 7,
       "12": 7,
@@ -6156,8 +6153,8 @@
     },
     "f": {
       "0": 7,
-      "1": 68,
-      "2": 300,
+      "1": 64,
+      "2": 280,
       "3": 1,
       "4": 6,
       "5": 0
@@ -6172,8 +6169,8 @@
         7
       ],
       "2": [
-        68,
-        68
+        64,
+        64
       ],
       "3": [
         7,
@@ -6190,10 +6187,8 @@
     },
     "inputSourceMap": {
       "version": 3,
-      "mappings": "AAkBc;AAlBd,OAAOA,oBAAkB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AACzB,SAASC,aAAa;AAEtB,SAASC,uBAAuB;AAQzB,gBAASC,UAAU;AAAA,EAAEC;AAAAA,EAAcC;AAAAA,EAAeC;AAAiC,GAAG;AAC3F,SACE,uBAAC,SAAI,eAAY,cAAa,WAAU,8BACtC,iCAAC,mBAAgB,WAAWD,eAC1B,iCAAC,SAAI,WAAU,6BACZD,0BACCA,aAAaG,IAAKC,UAChB,uBAAC,SAAoB,GAAIA,MAAM,SAAS,MAAMF,iBAAiBE,IAAI,KAAvDA,KAAKC,IAAjB;AAAA;AAAA;AAAA;AAAA,SAAqE,CACtE,KAJL;AAAA;AAAA;AAAA;AAAA,SAKA,KANF;AAAA;AAAA;AAAA;AAAA,SAOA,KARF;AAAA;AAAA;AAAA;AAAA,SASA;AAEJ;AAACC,KAbeP;AAAS;AAAAQ",
+      "mappings": "AAiBc;AAjBd,2BAAsB;AAAS;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAE/B,SAASA,uBAAuB;AAQzB,gBAASC,UAAU;AAAA,EAAEC;AAAAA,EAAcC;AAAAA,EAAeC;AAAiC,GAAG;AAC3F,SACE,uBAAC,SAAI,eAAY,cAAa,WAAU,8BACtC,iCAAC,mBAAgB,WAAWD,eAC1B,iCAAC,SAAI,WAAU,6BACZD,0BACCA,aAAaG,IAAKC,UAChB,uBAAC,SAAoB,GAAIA,MAAM,SAAS,MAAMF,iBAAiBE,IAAI,KAAvDA,KAAKC,IAAjB;AAAA;AAAA;AAAA;AAAA,SAAqE,CACtE,KAJL;AAAA;AAAA;AAAA;AAAA,SAKA,KANF;AAAA;AAAA;AAAA;AAAA,SAOA,KARF;AAAA;AAAA;AAAA;AAAA,SASA;AAEJ;AAACC,KAbeP;AAAS;AAAAQ",
       "names": [
-        "React",
-        "Image",
         "PreloaderCircle",
         "ImageList",
         "responseMain",
@@ -6211,7 +6206,7 @@
       "file": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/imagesMain/imageList.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "4ddbdd537ef33d5fa1f6ac5298e25ca571d52e81"
+    "hash": "9540376de9fc3b542e2fe705a1c5d89caa349eee"
   },
   "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/modal/modal.tsx": {
     "path": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/modal/modal.tsx",
@@ -8127,22 +8122,22 @@
       "6": 7,
       "7": 7,
       "8": 7,
-      "9": 68,
-      "10": 68,
-      "11": 68,
-      "12": 68,
-      "13": 68,
-      "14": 125,
-      "15": 68,
-      "16": 125,
-      "17": 68,
-      "18": 68,
-      "19": 68,
-      "20": 68,
-      "21": 21,
-      "22": 7,
-      "23": 2,
-      "24": 2,
+      "9": 64,
+      "10": 64,
+      "11": 64,
+      "12": 64,
+      "13": 64,
+      "14": 118,
+      "15": 64,
+      "16": 118,
+      "17": 64,
+      "18": 64,
+      "19": 64,
+      "20": 64,
+      "21": 20,
+      "22": 6,
+      "23": 1,
+      "24": 1,
       "25": 5,
       "26": 5,
       "27": 1,
@@ -8152,7 +8147,7 @@
       "31": 1,
       "32": 0,
       "33": 0,
-      "34": 68,
+      "34": 64,
       "35": 7,
       "36": 3,
       "37": 7,
@@ -8171,10 +8166,10 @@
     },
     "f": {
       "0": 7,
-      "1": 68,
-      "2": 125,
-      "3": 125,
-      "4": 21,
+      "1": 64,
+      "2": 118,
+      "3": 118,
+      "4": 20,
       "5": 1,
       "6": 1,
       "7": 0,
@@ -8192,21 +8187,21 @@
         7
       ],
       "2": [
-        12
+        14
       ],
       "3": [
-        18
+        16
       ],
       "4": [
-        7,
+        6,
         14
       ],
       "5": [
-        21,
-        10
+        20,
+        8
       ],
       "6": [
-        2,
+        1,
         5
       ],
       "7": [
@@ -8215,19 +8210,19 @@
       ],
       "8": [
         20,
-        48
+        44
       ],
       "9": [
-        68,
-        38
+        64,
+        36
       ],
       "10": [
         2,
-        46
+        42
       ],
       "11": [
         6,
-        62
+        58
       ],
       "12": [
         6,
@@ -8252,16 +8247,16 @@
     },
     "inputSourceMap": {
       "version": 3,
-      "mappings": "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",
+      "mappings": "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",
       "names": [
-        "SearchInput",
-        "ImageList",
         "useState",
         "useEffect",
-        "Modal",
-        "PreloaderCircle",
         "useDispatch",
         "useSelector",
+        "SearchInput",
+        "ImageList",
+        "Modal",
+        "PreloaderCircle",
         "setImagesData",
         "clearImagesData",
         "useGetSearchCardsQuery",
@@ -8319,7 +8314,7 @@
       "file": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/pages/mainPage/mainPage.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "3edf10a7fb61bb1702ddf01876b75fd6c1a955d0"
+    "hash": "f329a62229936da408558ba77611ba2269bd0fb9"
   },
   "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/pages/notFound.tsx": {
     "path": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/pages/notFound.tsx",
@@ -8849,11 +8844,10 @@
     },
     "inputSourceMap": {
       "version": 3,
-      "mappings": "AAGS;AAHT,OAAOA,oBAAkB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAElB,gBAASC,WAAW;AACzB,SAAO,uBAAC,QAAG,WAAU,wBAAuB,+BAArC;AAAA;AAAA;AAAA;AAAA,SAAoD;AAC7D;AAACC,KAFeD;AAAQ;AAAAE",
+      "mappings": "AACS;AADT,OAAO,oBAAoB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AACzB,SAAO,uBAAC,QAAG,WAAU,wBAAuB,+BAArC;AAAA;AAAA;AAAA;AAAA,SAAoD;AAC7D;AAACA,KAFeC;AAAQ;AAAAC",
       "names": [
-        "React",
-        "NotFound",
         "_c",
+        "NotFound",
         "$RefreshReg$"
       ],
       "sources": [
@@ -8862,7 +8856,7 @@
       "file": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/pages/notFound.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "79880555f7c0a99910069dfdccdbc12539e8e0a7"
+    "hash": "5b9eb62d7c01f89ac874f6740c9d0fc614af05d7"
   },
   "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/cardForm/card.tsx": {
     "path": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/cardForm/card.tsx",
@@ -9468,9 +9462,8 @@
     },
     "inputSourceMap": {
       "version": 3,
-      "mappings": "AAcM;AAdN,OAAOA,oBAAkB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAGlB,gBAASC,KAAK;AAAA,EACnBC;AAAAA,EACAC;AAAAA,EACAC;AAAAA,EACAC;AAAAA,EACAC;AAAAA,EACAC;AAAAA,EACAC;AACiB,GAAG;AACpB,SACE,uBAAC,SAAI,eAAY,QAAO,WAAU,QAChC;AAAA,2BAAC,SAAI,WAAU,aAAY,KAAKA,OAAO,KAAKN,QAA5C;AAAA;AAAA;AAAA;AAAA,WAAiD;AAAA,IACjD,uBAAC,QAAIA,kBAAL;AAAA;AAAA;AAAA;AAAA,WAAU;AAAA,IACV,uBAAC,SAAI,WAAU,cACb;AAAA,6BAAC,SAAG;AAAA;AAAA,QACM,uBAAC,UAAMC,mBAAP;AAAA;AAAA;AAAA;AAAA,eAAa;AAAA,QAAO;AAAA,WAD9B;AAAA;AAAA;AAAA;AAAA,aAEA;AAAA,MACA,uBAAC,SAAG;AAAA;AAAA,QACW,uBAAC,UAAMM,iBAAOL,UAAU,KAAxB;AAAA;AAAA;AAAA;AAAA,eAA0B;AAAA,WADzC;AAAA;AAAA;AAAA;AAAA,aAEA;AAAA,MACA,uBAAC,SAAG;AAAA;AAAA,QACM,uBAAC,UAAMC,mBAAP;AAAA;AAAA;AAAA;AAAA,eAAa;AAAA,WADvB;AAAA;AAAA;AAAA;AAAA,aAEA;AAAA,MACA,uBAAC,SAAG;AAAA;AAAA,QACiB;AAAA,QACnB,uBAAC,UACEC,2BAAiBI,IAAI,CAACC,IAAIC,UACzBA,UAAUN,gBAAgBO,SAAS,IAAIF,KAAK,OAAOA,EAAE,KAFzD;AAAA;AAAA;AAAA;AAAA,eAIA;AAAA,WANF;AAAA;AAAA;AAAA;AAAA,aAOA;AAAA,MACA,uBAAC,SAAG;AAAA;AAAA,QACS,uBAAC,UAAMJ,sBAAP;AAAA;AAAA;AAAA;AAAA,eAAgB;AAAA,WAD7B;AAAA;AAAA;AAAA;AAAA,aAEA;AAAA,SApBF;AAAA;AAAA;AAAA;AAAA,WAqBA;AAAA,OAxBF;AAAA;AAAA;AAAA;AAAA,SAyBA;AAEJ;AAACO,KArCeb;AAAI;AAAAc",
+      "mappings": "AAaM;AAbN,2BAAyB;AAAU;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAE5B,gBAASA,KAAK;AAAA,EACnBC;AAAAA,EACAC;AAAAA,EACAC;AAAAA,EACAC;AAAAA,EACAC;AAAAA,EACAC;AAAAA,EACAC;AACiB,GAAG;AACpB,SACE,uBAAC,SAAI,eAAY,QAAO,WAAU,QAChC;AAAA,2BAAC,SAAI,WAAU,aAAY,KAAKA,OAAO,KAAKN,QAA5C;AAAA;AAAA;AAAA;AAAA,WAAiD;AAAA,IACjD,uBAAC,QAAIA,kBAAL;AAAA;AAAA;AAAA;AAAA,WAAU;AAAA,IACV,uBAAC,SAAI,WAAU,cACb;AAAA,6BAAC,SAAG;AAAA;AAAA,QACM,uBAAC,UAAMC,mBAAP;AAAA;AAAA;AAAA;AAAA,eAAa;AAAA,QAAO;AAAA,WAD9B;AAAA;AAAA;AAAA;AAAA,aAEA;AAAA,MACA,uBAAC,SAAG;AAAA;AAAA,QACW,uBAAC,UAAMM,iBAAOL,UAAU,KAAxB;AAAA;AAAA;AAAA;AAAA,eAA0B;AAAA,WADzC;AAAA;AAAA;AAAA;AAAA,aAEA;AAAA,MACA,uBAAC,SAAG;AAAA;AAAA,QACM,uBAAC,UAAMC,mBAAP;AAAA;AAAA;AAAA;AAAA,eAAa;AAAA,WADvB;AAAA;AAAA;AAAA;AAAA,aAEA;AAAA,MACA,uBAAC,SAAG;AAAA;AAAA,QACiB;AAAA,QACnB,uBAAC,UACEC,2BAAiBI,IAAI,CAACC,IAAIC,UACzBA,UAAUN,gBAAgBO,SAAS,IAAIF,KAAK,OAAOA,EAAE,KAFzD;AAAA;AAAA;AAAA;AAAA,eAIA;AAAA,WANF;AAAA;AAAA;AAAA;AAAA,aAOA;AAAA,MACA,uBAAC,SAAG;AAAA;AAAA,QACS,uBAAC,UAAMJ,sBAAP;AAAA;AAAA;AAAA;AAAA,eAAgB;AAAA,WAD7B;AAAA;AAAA;AAAA;AAAA,aAEA;AAAA,SApBF;AAAA;AAAA;AAAA;AAAA,WAqBA;AAAA,OAxBF;AAAA;AAAA;AAAA;AAAA,SAyBA;AAEJ;AAACO,KArCeb;AAAI;AAAAc",
       "names": [
-        "React",
         "Card",
         "name",
         "price",
@@ -9493,7 +9486,7 @@
       "file": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/cardForm/card.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "d7423685cb2cd282e27345005d84a086d35c90ba"
+    "hash": "1215717ad0a87cd8572b38ec2edd3ea2db64dcaa"
   },
   "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/cardForm/cardListForm.tsx": {
     "path": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/cardForm/cardListForm.tsx",
@@ -10099,10 +10092,8 @@
     },
     "inputSourceMap": {
       "version": 3,
-      "mappings": "AAY0C;AAZ1C,OAAOA,oBAAkB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AACzB,SAASC,YAAY;AAOd,gBAASC,YAAY;AAAA,EAAEC;AAAmC,GAAG;AAClE,SACE,uBAAC,SAAI,eAAY,aAAY,WAAU,6BACpCA,6BACCA,gBAAgBC,IAAKC,cAAa,uBAAC,QAAuB,GAAIA,YAAjBA,SAASC,IAApB;AAAA;AAAA;AAAA;AAAA,SAAqC,CAAG,EAAEC,QAAO,KAFvF;AAAA;AAAA;AAAA;AAAA,SAGA;AAEJ;AAACC,KAPeN;AAAW;AAAAO",
+      "mappings": "AAW0C;AAX1C,2BAAqB;AAAQ;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAOtB,gBAASA,YAAY;AAAA,EAAEC;AAAmC,GAAG;AAClE,SACE,uBAAC,SAAI,eAAY,aAAY,WAAU,6BACpCA,6BACCA,gBAAgBC,IAAKC,cAAa,uBAAC,QAAuB,GAAIA,YAAjBA,SAASC,IAApB;AAAA;AAAA;AAAA;AAAA,SAAqC,CAAG,EAAEC,QAAO,KAFvF;AAAA;AAAA;AAAA;AAAA,SAGA;AAEJ;AAACC,KAPeN;AAAW;AAAAO",
       "names": [
-        "React",
-        "Card",
         "CarListForm",
         "formSubmissions",
         "map",
@@ -10118,7 +10109,7 @@
       "file": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/cardForm/cardListForm.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "1dd1683b183a1051bc0601ae77fe3855a497c168"
+    "hash": "88a5c467659c70b1345d8c88e99b1a673a6d22f3"
   },
   "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/form/formErrorMessage.tsx": {
     "path": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/form/formErrorMessage.tsx",
@@ -10648,9 +10639,8 @@
     },
     "inputSourceMap": {
       "version": 3,
-      "mappings": "AAOS;AAPT,OAAOA,oBAAkB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAMlB,gBAASC,aAAa;AAAA,EAAEC;AAAsB,GAAG;AACtD,SAAO,uBAAC,SAAI,WAAU,wBAAwBA,qBAAvC;AAAA;AAAA;AAAA;AAAA,SAA+C;AACxD;AAACC,KAFeF;AAAY;AAAAG",
+      "mappings": "AAKS;AALT,2BAAuB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAIhB,gBAASA,aAAa;AAAA,EAAEC;AAAsB,GAAG;AACtD,SAAO,uBAAC,SAAI,WAAU,wBAAwBA,qBAAvC;AAAA;AAAA;AAAA;AAAA,SAA+C;AACxD;AAACC,KAFeF;AAAY;AAAAG",
       "names": [
-        "React",
         "ErrorMessage",
         "message",
         "_c",
@@ -10662,7 +10652,7 @@
       "file": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/form/formErrorMessage.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "607193aafda550cdd971963a4219e668037f1eae"
+    "hash": "9942e1331842f2e988e148e446aebd2b00b1ab75"
   },
   "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/reducers/formSlice.tsx": {
     "path": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/reducers/formSlice.tsx",
@@ -13107,7 +13097,7 @@
     },
     "inputSourceMap": {
       "version": 3,
-      "mappings": "AAuBQ;;;;;;;;;;;;;;;;AAvBR,SAAgBA,UAAUC,cAAc;AACxC,SAASC,mBAAmB;AAC5B,SAASC,YAAY;AAErB,SAASC,mBAAmB;AAErB,gBAASC,WAAW;AAAAC;AACzB,QAAMC,QAAQH,YAAY,CAACI,UAA6BA,MAAMC,IAAI;AAClE,QAAM,CAACC,oBAAoBC,qBAAqB,IAAIX,SAAS,KAAK;AAClE,QAAMY,YAAYX,OAAc;AAChC,QAAMY,mBAAmBA,MAAM;AAC7BF,0BAAsB,IAAI;AAC1B,QAAIC,WAAW;AACbE,aAAOC,aAAaH,UAAUI,OAAO;AAAA,IACvC;AACAJ,cAAUI,UAAUF,OAAOG,WAAW,MAAM;AAC1CN,4BAAsB,KAAK;AAAA,IAC7B,GAAG,GAAI;AAAA,EACT;AAEA,SACE,uBAAC,UAAK,WAAU,qBACd;AAAA,2BAAC,WACC;AAAA,6BAAC,QAAK,cAAcE,oBAApB;AAAA;AAAA;AAAA;AAAA,aAAqC;AAAA,MACpCH,sBAAsB,uBAAC,SAAI,WAAU,mBAAkB,mCAAjC;AAAA;AAAA;AAAA;AAAA,aAAoD;AAAA,SAF7E;AAAA;AAAA;AAAA;AAAA,WAGA;AAAA,IACA,uBAAC,aAAQ,WAAU,sBACjB,iCAAC,eAAY,iBAAiBH,SAA9B;AAAA;AAAA;AAAA;AAAA,WAAoC,KADtC;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,OAPF;AAAA;AAAA;AAAA;AAAA,SAQA;AAEJ;AAACD,GAzBeD,UAAQ;AAAA,UACRD,WAAW;AAAA;AAAAc,KADXb;AAAQ;AAAAc",
+      "mappings": "AAuBQ;;;;;;;;;;;;;;;;AAvBR,SAASA,UAAUC,cAAc;AACjC,SAASC,mBAAmB;AAC5B,SAASC,YAAY;AAErB,SAASC,mBAAmB;AAErB,gBAASC,WAAW;AAAAC;AACzB,QAAMC,QAAQH,YAAY,CAACI,UAA6BA,MAAMC,IAAI;AAClE,QAAM,CAACC,oBAAoBC,qBAAqB,IAAIX,SAAS,KAAK;AAClE,QAAMY,YAAYX,OAAc;AAChC,QAAMY,mBAAmBA,MAAM;AAC7BF,0BAAsB,IAAI;AAC1B,QAAIC,WAAW;AACbE,aAAOC,aAAaH,UAAUI,OAAO;AAAA,IACvC;AACAJ,cAAUI,UAAUF,OAAOG,WAAW,MAAM;AAC1CN,4BAAsB,KAAK;AAAA,IAC7B,GAAG,GAAI;AAAA,EACT;AAEA,SACE,uBAAC,UAAK,WAAU,qBACd;AAAA,2BAAC,WACC;AAAA,6BAAC,QAAK,cAAcE,oBAApB;AAAA;AAAA;AAAA;AAAA,aAAqC;AAAA,MACpCH,sBAAsB,uBAAC,SAAI,WAAU,mBAAkB,mCAAjC;AAAA;AAAA;AAAA;AAAA,aAAoD;AAAA,SAF7E;AAAA;AAAA;AAAA;AAAA,WAGA;AAAA,IACA,uBAAC,aAAQ,WAAU,sBACjB,iCAAC,eAAY,iBAAiBH,SAA9B;AAAA;AAAA;AAAA;AAAA,WAAoC,KADtC;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,OAPF;AAAA;AAAA;AAAA;AAAA,SAQA;AAEJ;AAACD,GAzBeD,UAAQ;AAAA,UACRD,WAAW;AAAA;AAAAc,KADXb;AAAQ;AAAAc",
       "names": [
         "useState",
         "useRef",
@@ -13136,7 +13126,7 @@
       "file": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/pages/formPage/formPage.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "681a63d700aeabb027bc89ad569d29136286d22c"
+    "hash": "81552710df60cebd312559f259e61f0b5f6c8512"
   },
   "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/App.tsx": {
     "path": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/App.tsx",
@@ -13254,7 +13244,7 @@
       "11": {
         "start": {
           "line": 68,
-          "column": 12
+          "column": 19
         },
         "end": {
           "line": 88,
@@ -13264,7 +13254,7 @@
       "12": {
         "start": {
           "line": 68,
-          "column": 34
+          "column": 41
         },
         "end": {
           "line": 88,
@@ -13283,131 +13273,131 @@
       },
       "14": {
         "start": {
-          "line": 92,
+          "line": 91,
           "column": 0
         },
         "end": {
-          "line": 92,
+          "line": 91,
           "column": 27
         }
       },
       "15": {
         "start": {
-          "line": 93,
+          "line": 92,
           "column": 0
         },
         "end": {
-          "line": 93,
+          "line": 92,
           "column": 25
         }
       },
       "16": {
         "start": {
-          "line": 94,
+          "line": 93,
           "column": 0
         },
         "end": {
-          "line": 110,
+          "line": 109,
           "column": 1
         }
       },
       "17": {
         "start": {
-          "line": 95,
+          "line": 94,
           "column": 2
         },
         "end": {
-          "line": 95,
+          "line": 94,
           "column": 39
         }
       },
       "18": {
         "start": {
-          "line": 96,
+          "line": 95,
           "column": 2
         },
         "end": {
-          "line": 96,
+          "line": 95,
           "column": 39
         }
       },
       "19": {
         "start": {
-          "line": 97,
+          "line": 96,
           "column": 2
         },
         "end": {
-          "line": 109,
+          "line": 108,
           "column": 5
         }
       },
       "20": {
         "start": {
-          "line": 101,
+          "line": 100,
           "column": 4
         },
         "end": {
-          "line": 101,
+          "line": 100,
           "column": 140
         }
       },
       "21": {
         "start": {
-          "line": 102,
+          "line": 101,
           "column": 4
         },
         "end": {
-          "line": 108,
+          "line": 107,
           "column": 7
         }
       },
       "22": {
         "start": {
-          "line": 103,
+          "line": 102,
           "column": 6
         },
         "end": {
-          "line": 104,
+          "line": 103,
           "column": 15
         }
       },
       "23": {
         "start": {
-          "line": 104,
+          "line": 103,
           "column": 8
         },
         "end": {
-          "line": 104,
+          "line": 103,
           "column": 15
         }
       },
       "24": {
         "start": {
-          "line": 105,
+          "line": 104,
           "column": 32
         },
         "end": {
-          "line": 105,
+          "line": 104,
           "column": 115
         }
       },
       "25": {
         "start": {
-          "line": 106,
+          "line": 105,
           "column": 6
         },
         "end": {
-          "line": 107,
+          "line": 106,
           "column": 54
         }
       },
       "26": {
         "start": {
-          "line": 107,
+          "line": 106,
           "column": 8
         },
         "end": {
-          "line": 107,
+          "line": 106,
           "column": 54
         }
       }
@@ -13466,17 +13456,17 @@
         "decl": {
           "start": {
             "line": 68,
-            "column": 12
+            "column": 19
           },
           "end": {
             "line": 68,
-            "column": 13
+            "column": 20
           }
         },
         "loc": {
           "start": {
             "line": 68,
-            "column": 34
+            "column": 41
           },
           "end": {
             "line": 88,
@@ -13489,49 +13479,49 @@
         "name": "(anonymous_3)",
         "decl": {
           "start": {
-            "line": 100,
+            "line": 99,
             "column": 9
           },
           "end": {
-            "line": 100,
+            "line": 99,
             "column": 10
           }
         },
         "loc": {
           "start": {
-            "line": 100,
+            "line": 99,
             "column": 29
           },
           "end": {
-            "line": 109,
+            "line": 108,
             "column": 3
           }
         },
-        "line": 100
+        "line": 99
       },
       "4": {
         "name": "(anonymous_4)",
         "decl": {
           "start": {
-            "line": 102,
+            "line": 101,
             "column": 27
           },
           "end": {
-            "line": 102,
+            "line": 101,
             "column": 28
           }
         },
         "loc": {
           "start": {
-            "line": 102,
+            "line": 101,
             "column": 44
           },
           "end": {
-            "line": 108,
+            "line": 107,
             "column": 5
           }
         },
-        "line": 102
+        "line": 101
       }
     },
     "branchMap": {
@@ -13598,11 +13588,11 @@
       "2": {
         "loc": {
           "start": {
-            "line": 94,
+            "line": 93,
             "column": 0
           },
           "end": {
-            "line": 110,
+            "line": 109,
             "column": 1
           }
         },
@@ -13610,11 +13600,11 @@
         "locations": [
           {
             "start": {
-              "line": 94,
+              "line": 93,
               "column": 0
             },
             "end": {
-              "line": 110,
+              "line": 109,
               "column": 1
             }
           },
@@ -13623,16 +13613,16 @@
             "end": {}
           }
         ],
-        "line": 94
+        "line": 93
       },
       "3": {
         "loc": {
           "start": {
-            "line": 103,
+            "line": 102,
             "column": 6
           },
           "end": {
-            "line": 104,
+            "line": 103,
             "column": 15
           }
         },
@@ -13640,11 +13630,11 @@
         "locations": [
           {
             "start": {
-              "line": 103,
+              "line": 102,
               "column": 6
             },
             "end": {
-              "line": 104,
+              "line": 103,
               "column": 15
             }
           },
@@ -13653,16 +13643,16 @@
             "end": {}
           }
         ],
-        "line": 103
+        "line": 102
       },
       "4": {
         "loc": {
           "start": {
-            "line": 106,
+            "line": 105,
             "column": 6
           },
           "end": {
-            "line": 107,
+            "line": 106,
             "column": 54
           }
         },
@@ -13670,11 +13660,11 @@
         "locations": [
           {
             "start": {
-              "line": 106,
+              "line": 105,
               "column": 6
             },
             "end": {
-              "line": 107,
+              "line": 106,
               "column": 54
             }
           },
@@ -13683,7 +13673,7 @@
             "end": {}
           }
         ],
-        "line": 106
+        "line": 105
       }
     },
     "s": {
@@ -13746,7 +13736,7 @@
     },
     "inputSourceMap": {
       "version": 3,
-      "mappings": "AAa0B,SAQxB,UARwB;AAb1B,OAAO,oBAAY;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAEnB,SAASA,OAAOC,cAAc;AAC9B,OAAOC,YAAY;AACnB,OAAOC,YAAY;AACnB,SAASC,eAAe;AACxB,SAASC,gBAAgB;AACzB,SAASC,gBAAgB;AACzB,SAASC,gBAAgB;AACzB,OAAOC,YAAY;AAEnB,MAAMC,SAASA,MACb,uBAAC,UACC;AAAA,yBAAC,SAAM,OAAK,MAAC,SAAS,uBAAC,cAAD;AAAA;AAAA;AAAA;AAAA,SAAS,KAA/B;AAAA;AAAA;AAAA;AAAA,SAAmC;AAAA,EACnC,uBAAC,SAAM,MAAMD,OAAOE,OAAO,SAAS,uBAAC,aAAD;AAAA;AAAA;AAAA;AAAA,SAAQ,KAA5C;AAAA;AAAA;AAAA;AAAA,SAAgD;AAAA,EAChD,uBAAC,SAAM,MAAMF,OAAOG,MAAM,SAAS,uBAAC,cAAD;AAAA;AAAA;AAAA;AAAA,SAAS,KAA5C;AAAA;AAAA;AAAA;AAAA,SAAgD;AAAA,EAChD,uBAAC,SAAM,MAAK,KAAI,SAAS,uBAAC,cAAD;AAAA;AAAA;AAAA;AAAA,SAAS,KAAlC;AAAA;AAAA;AAAA;AAAA,SAAsC;AAAA,KAJxC;AAAA;AAAA;AAAA;AAAA,OAKA;AACAC,KAPIH;AASN,MAAMI,MAAMA,MACV,mCACE;AAAA,yBAAC,YAAD;AAAA;AAAA;AAAA;AAAA,SAAO;AAAA,EACP,uBAAC,YAAD;AAAA;AAAA;AAAA;AAAA,SAAO;AAAA,EACP,uBAAC,YAAD;AAAA;AAAA;AAAA;AAAA,SAAO;AAAA,KAHT;AAAA;AAAA;AAAA;AAAA,OAIA;AACAC,MANID;AAQN,eAAeA;AAAI;AAAAE;AAAAA",
+      "mappings": "AAY0B,SAQxB,UARwB;AAZ1B,OAAO,oBAAY;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AACnB,SAASA,OAAOC,cAAc;AAC9B,SAASC,cAAc;AACvB,SAASC,cAAc;AACvB,SAASC,eAAe;AACxB,SAASC,gBAAgB;AACzB,SAASC,gBAAgB;AACzB,SAASC,gBAAgB;AACzB,SAASC,cAAc;AAEvB,MAAMC,SAASA,MACb,uBAAC,UACC;AAAA,yBAAC,SAAM,OAAK,MAAC,SAAS,uBAAC,cAAD;AAAA;AAAA;AAAA;AAAA,SAAS,KAA/B;AAAA;AAAA;AAAA;AAAA,SAAmC;AAAA,EACnC,uBAAC,SAAM,MAAMD,OAAOE,OAAO,SAAS,uBAAC,aAAD;AAAA;AAAA;AAAA;AAAA,SAAQ,KAA5C;AAAA;AAAA;AAAA;AAAA,SAAgD;AAAA,EAChD,uBAAC,SAAM,MAAMF,OAAOG,MAAM,SAAS,uBAAC,cAAD;AAAA;AAAA;AAAA;AAAA,SAAS,KAA5C;AAAA;AAAA;AAAA;AAAA,SAAgD;AAAA,EAChD,uBAAC,SAAM,MAAK,KAAI,SAAS,uBAAC,cAAD;AAAA;AAAA;AAAA;AAAA,SAAS,KAAlC;AAAA;AAAA;AAAA;AAAA,SAAsC;AAAA,KAJxC;AAAA;AAAA;AAAA;AAAA,OAKA;AACAC,KAPIH;AASC,aAAMI,MAAMA,MACjB,mCACE;AAAA,yBAAC,YAAD;AAAA;AAAA;AAAA;AAAA,SAAO;AAAA,EACP,uBAAC,YAAD;AAAA;AAAA;AAAA;AAAA,SAAO;AAAA,EACP,uBAAC,YAAD;AAAA;AAAA;AAAA;AAAA,SAAO;AAAA,KAHT;AAAA;AAAA;AAAA;AAAA,OAIA;AACAC,MANWD;AAAG;AAAAE;AAAAA",
       "names": [
         "Route",
         "Routes",
@@ -13771,7 +13761,7 @@
       "file": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/App.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "aab337d150d5fb96cef4f0bbdb46afef7daf5889"
+    "hash": "e3500636891b85ab9a9717100291030d56e1f586"
   },
   "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/store.tsx": {
     "path": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/store.tsx",
@@ -13834,7 +13824,7 @@
     "b": {},
     "inputSourceMap": {
       "version": 3,
-      "mappings": "AAAA,SAASA,sBAAsB;AAC/B,OAAOC,eAAe;AACtB,OAAOC,iBAAiB;AACxB,OAAOC,iBAAiB;AACxB,SAASC,mBAAmB;AAQrB,aAAMC,QAAQL,eAAe;AAAA,EAClCM,SAAS;AAAA,IACPC,MAAMN;AAAAA,IACNO,QAAQN;AAAAA,IACRO,QAAQN;AAAAA,IACR,CAACC,YAAYM,WAAW,GAAGN,YAAYE;AAAAA,EACzC;AAAA,EACAK,YAAaC,0BAAyBA,qBAAoB,EAAGC,OAAOT,YAAYO,UAAU;AAC5F,CAAC;AAED,eAAeN",
+      "mappings": "AAAA,SAASA,sBAAsB;AAC/B,OAAOC,eAAe;AACtB,OAAOC,iBAAiB;AACxB,OAAOC,iBAAiB;AACxB,SAASC,mBAAmB;AAErB,aAAMC,QAAQL,eAAe;AAAA,EAClCM,SAAS;AAAA,IACPC,MAAMN;AAAAA,IACNO,QAAQN;AAAAA,IACRO,QAAQN;AAAAA,IACR,CAACC,YAAYM,WAAW,GAAGN,YAAYE;AAAAA,EACzC;AAAA,EACAK,YAAaC,0BAAyBA,qBAAoB,EAAGC,OAAOT,YAAYO,UAAU;AAC5F,CAAC",
       "names": [
         "configureStore",
         "formSlice",
@@ -13857,7 +13847,7 @@
       "file": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/components/store.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "ca0c479538bf7e5450b4cb1722a5b646870b68ee"
+    "hash": "9559c864671fe0ac709039e1aa45040ac22885b5"
   },
   "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/index.tsx": {
     "path": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/index.tsx",
@@ -13882,7 +13872,7 @@
     "b": {},
     "inputSourceMap": {
       "version": 3,
-      "mappings": "AAYQ;AAZR,OAAOA,WAAW;AAClB,OAAOC,cAAc;AACrB,SAASC,gBAAgB;AACzB,SAASC,qBAAqB;AAC9B,OAAOC,SAAS;AAChB,SAASC,aAAa;AAEtBJ,SAASK,YACPC,SAASC,eAAe,MAAM,GAC9B,uBAAC,MAAM,YAAN,EACC,iCAAC,YAAS,OACR,iCAAC,iBACC,iCAAC,SAAD;AAAA;AAAA;AAAA;AAAA,OAAI,KADN;AAAA;AAAA;AAAA;AAAA,OAEA,KAHF;AAAA;AAAA;AAAA;AAAA,OAIA,KALF;AAAA;AAAA;AAAA;AAAA,OAMA,CAAmB",
+      "mappings": "AAYQ;AAZR,OAAOA,WAAW;AAClB,OAAOC,cAAc;AACrB,SAASC,gBAAgB;AACzB,SAASC,qBAAqB;AAC9B,SAASC,WAAW;AACpB,SAASC,aAAa;AAEtBJ,SAASK,YACPC,SAASC,eAAe,MAAM,GAC9B,uBAAC,MAAM,YAAN,EACC,iCAAC,YAAS,OACR,iCAAC,iBACC,iCAAC,SAAD;AAAA;AAAA;AAAA;AAAA,OAAI,KADN;AAAA;AAAA;AAAA;AAAA,OAEA,KAHF;AAAA;AAAA;AAAA;AAAA,OAIA,KALF;AAAA;AAAA;AAAA;AAAA,OAMA,CAAmB",
       "names": [
         "React",
         "ReactDOM",
@@ -13900,7 +13890,7 @@
       "file": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/index.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "c947cabec6dd70a89790864ce979488d413f9401"
+    "hash": "e80aff1945cf157290b24ca839a0e4e535f2cdac"
   },
   "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/setupTests.ts": {
     "path": "/Users/alekseykozlovskiy/Projects/React-2023-Q1/my-app-rss/src/setupTests.ts",

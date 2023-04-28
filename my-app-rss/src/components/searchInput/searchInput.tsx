@@ -1,4 +1,4 @@
-import React, { useState, KeyboardEventHandler, useEffect } from 'react';
+import { useState, KeyboardEventHandler, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { setImagesData, clearImagesData } from '../reducers/imagesSlice';
 import { setSearchData, clearSearchData } from '../reducers/searchSlice';
@@ -6,7 +6,7 @@ import { useSelector } from 'react-redux';
 import { StateReducerProps } from '../../components/types';
 import { useGetSearchCardsQuery, useGetStockCardsQuery } from './../../components/api/cardsApi';
 
-function SearchInput() {
+export function SearchInput() {
   const [inputValue, setInputValue] = useState('');
   const dispatch = useDispatch();
   const searchValueInStore = useSelector((state: StateReducerProps) => state.search.searchValue);
@@ -66,4 +66,4 @@ function SearchInput() {
   );
 }
 
-export default SearchInput;
+// export default SearchInput;

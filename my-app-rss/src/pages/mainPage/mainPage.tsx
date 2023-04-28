@@ -1,11 +1,11 @@
-import SearchInput from '../../components/searchInput/searchInput';
+import { useState, useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { SearchInput } from '../../components/searchInput/searchInput';
 import { ImageList } from '../../components/imagesMain/imageList';
-import React, { useState, useEffect } from 'react';
 import { ImagesProps } from '../../components/types';
 import { StateReducerProps } from '../../components/types';
 import { Modal } from '../../components/modal/modal';
 import { PreloaderCircle } from '../../components/preloader/preloaderCircle';
-import { useDispatch, useSelector } from 'react-redux';
 import { setImagesData, clearImagesData } from '../../components/reducers/imagesSlice';
 import {
   useGetSearchCardsQuery,

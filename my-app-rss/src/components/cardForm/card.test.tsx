@@ -1,9 +1,8 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { Card } from './card';
 import { CarListForm } from './cardListForm';
 import { Provider } from 'react-redux';
-import store from './../store';
+import { store } from './../store';
 
 describe('Card', () => {
   it('render card', () => {

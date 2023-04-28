@@ -1,9 +1,8 @@
-import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { Image } from './image';
 import { ImageList } from './imageList';
 import { Provider } from 'react-redux';
-import store from './../store';
+import { store } from './../store';
 import { vi } from 'vitest';
 
 describe('Image component', () => {

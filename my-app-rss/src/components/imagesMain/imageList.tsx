@@ -1,4 +1,3 @@
-import React from 'react';
 import { Image } from './image';
 import { ImagesProps } from '../types';
 import { PreloaderCircle } from '../preloader/preloaderCircle';
