@@ -15,6 +15,7 @@ export function ImageList({ responseMain, isLoadingMain, handleImageClick }: Ima
       <PreloaderCircle isLoading={isLoadingMain}>
         <div className="cardList__wrapper wrapper">
           {responseMain &&
+            Array.isArray(responseMain) &&
             responseMain.map((data) => (
               <Image key={data.id} {...data} onClick={() => handleImageClick(data)} />
             ))}
